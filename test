@@ -1,0 +1,2008 @@
+[33mcommit d5f8e57e296fae72590df460ea6801e3d261292c[m
+Author: 444132576 <444132576@qq.com>
+Date:   Thu Jul 27 16:47:12 2017 +0800
+
+    updata getphone.css
+
+[33mcommit d417e20360bd74c5965e7f88870f931c0aabc131[m
+Author: 444132576 <444132576@qq.com>
+Date:   Thu Jul 27 16:28:00 2017 +0800
+
+    update count/issue/create
+
+[33mcommit a79798a9c77f70d1b0065b83c09b2df2a927a912[m
+Author: 444132576 <444132576@qq.com>
+Date:   Thu Jul 27 13:41:08 2017 +0800
+
+    phone/getphone show
+
+[33mcommit f303aaaf396b49a3e041c1c11854c8b7f1c778f9[m
+Author: 444132576 <444132576@qq.com>
+Date:   Thu Jul 27 11:19:53 2017 +0800
+
+    test
+
+[33mcommit c84b74dadf47a2cee24cacb27a852013c094f1f4[m
+Author: 444132576 <444132576@qq.com>
+Date:   Thu Jul 27 10:07:42 2017 +0800
+
+    phone/getphone
+
+[33mcommit 2b8341adbf870224a9cbb52a2cbd117f84bad6b0[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Jul 26 17:45:59 2017 +0800
+
+    debug mergin
+
+[33mcommit 67fc6192c917fb1b3be856f8230582bc038b266e[m
+Merge: 19a84ce b37a4f8
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Jul 26 17:28:32 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit 19a84cefca30e7f0d15489a7b06db47117663211[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Jul 26 17:27:27 2017 +0800
+
+    debug uplone
+
+[33mcommit b37a4f8f32235f807c4ab8371ab4f49e0916fff7[m
+Author: 444132576 <444132576@qq.com>
+Date:   Wed Jul 26 16:46:05 2017 +0800
+
+    phone/getphone
+
+[33mcommit 35d5c8a8ce1a39d6fa29b8d1b7e4b01ca2d7bdef[m
+Author: 444132576 <444132576@qq.com>
+Date:   Wed Jul 26 16:02:51 2017 +0800
+
+    count/issue
+
+[33mcommit a013d976a637d99a2857b4683d67506dbfe17ed9[m
+Merge: 97015ee 16fa802
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Jul 25 11:13:56 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit 97015eeeeb9d33f4c5a2d89763a0fab7000e5688[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Jul 25 11:13:40 2017 +0800
+
+    debug add timing log date
+
+[33mcommit 16fa80267fce46bc0cc08f052e7fb68c771bc920[m
+Author: 444132576 <444132576@qq.com>
+Date:   Mon Jul 24 16:00:42 2017 +0800
+
+    images_show
+
+[33mcommit 2c975c05be7553597e4ac248627172ef8c657bd1[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Jul 24 08:54:51 2017 +0800
+
+    debug bills ;
+
+[33mcommit 74dc01a63ab7ef9cd2e76c9d5671ea35e6cc37ae[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Jul 23 21:41:55 2017 +0800
+
+    debug monye
+
+[33mcommit 036933e0334c1f0bb65a53b56d7a944e6b5173cf[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Jul 23 19:50:19 2017 +0800
+
+    add  image uoload
+
+[33mcommit d39f0c4b037c3baaf99679bec9485008da4aae4c[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Jul 20 18:51:31 2017 +0800
+
+    eteam  Reward
+
+[33mcommit 78124ec23f8476ca7c893462dfc74d89ae66051e[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Jul 20 15:12:09 2017 +0800
+
+    debug upload image
+
+[33mcommit 787fb06b2d149e99fffbc42ff8c501a8f2a8aa4a[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Jul 20 13:01:48 2017 +0800
+
+    add timing day
+
+[33mcommit c5b371d25a8c0cb1ab41bbf1bd88e8f941b84e9d[m
+Author: caomei <2625419650@qq.com>
+Date:   Tue Jul 18 19:58:46 2017 +0800
+
+    change unpaid
+
+[33mcommit 2836a5ecbb6290ee0f102e87e34dfc180cd37dff[m
+Author: caomei <2625419650@qq.com>
+Date:   Tue Jul 18 17:24:58 2017 +0800
+
+    ceshi
+
+[33mcommit 9a8f84aade34bfd029364eccfc97de772d4bfa5f[m
+Author: caomei <2625419650@qq.com>
+Date:   Tue Jul 18 17:23:37 2017 +0800
+
+    ceshi
+
+[33mcommit a6de153b5250199954950d8bb39326d7a2979810[m
+Author: 444132576 <444132576@qq.com>
+Date:   Tue Jul 18 13:52:42 2017 +0800
+
+    report/index
+
+[33mcommit 8e33e024194e05c4114f78214a7bded0fb431676[m
+Merge: 5b5cde0 86c73d6
+Author: 444132576 <444132576@qq.com>
+Date:   Tue Jul 18 11:01:29 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit 5b5cde042cb23db2066d1be8de04526c29801f70[m
+Author: 444132576 <444132576@qq.com>
+Date:   Tue Jul 18 11:00:47 2017 +0800
+
+    search-city-index
+
+[33mcommit 86c73d6125303391ee5d853626b493252ac31997[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Jul 18 09:12:16 2017 +0800
+
+    debug bills menoy
+
+[33mcommit 057c5d078219ebf586e77d15797b10a546040f66[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Jul 17 10:23:04 2017 +0800
+
+    debug dev
+
+[33mcommit c9d29717f075e1e21dacec594e12adc49ba14d19[m
+Merge: 772ea41 92d17ca
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Jul 13 11:47:24 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit 772ea4135dd18108ac6d48145c3c4bae6be5afb8[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Jul 13 11:46:26 2017 +0800
+
+    debug point heigh
+
+[33mcommit 92d17ca0f3343ddb5dee36752c04ec65b4b9fa44[m
+Merge: 72724d2 53f861f
+Author: caomei <2625419650@qq.com>
+Date:   Mon Jul 10 14:33:00 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit 72724d23b699851a7cb219901261c86647c66564[m
+Author: caomei <2625419650@qq.com>
+Date:   Mon Jul 10 14:32:44 2017 +0800
+
+    change wx views forth
+
+[33mcommit 53f861fe955fd5ddfd258f7fd4f8c880036297c1[m
+Merge: 86fe676 2a36689
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Jul 9 15:45:11 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit 86fe67617762863cd8bcf57a930031e3837bac82[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Jul 9 15:44:17 2017 +0800
+
+    add bills payment
+
+[33mcommit 2a36689714ea02cd79f44696203b1044af6d7403[m
+Author: caomei <2625419650@qq.com>
+Date:   Fri Jul 7 09:45:07 2017 +0800
+
+    change wx views fourth
+
+[33mcommit e212926a47c07b94d7baa63aa82c97ff18bc01ab[m
+Author: caomei <2625419650@qq.com>
+Date:   Thu Jul 6 08:35:42 2017 +0800
+
+    change wx views third
+
+[33mcommit 47257d9d58415b4dc1d7d293496d6bf55955da8f[m
+Author: caomei <2625419650@qq.com>
+Date:   Wed Jul 5 19:11:36 2017 +0800
+
+    change wx views third
+
+[33mcommit 93a28bd0aadeb6c404c2b2cfd05c94b1a396d016[m
+Author: caomei <2625419650@qq.com>
+Date:   Mon Jul 3 09:35:04 2017 +0800
+
+    debug change wx views
+
+[33mcommit dedeecb2876940d90344000b7d1bc17345e01c80[m
+Author: caomei <2625419650@qq.com>
+Date:   Sat Jul 1 16:15:33 2017 +0800
+
+    change wx views third
+
+[33mcommit ace37abf29f647763de8819dd59410d7f70145c3[m
+Author: caomei <2625419650@qq.com>
+Date:   Fri Jun 30 17:57:43 2017 +0800
+
+    change wx views twice
+
+[33mcommit 639a20fd251f9d69ecf812f116dc1215e6ba45a6[m
+Author: caomei <2625419650@qq.com>
+Date:   Thu Jun 29 18:09:09 2017 +0800
+
+    change wx views
+
+[33mcommit 1088959d1f5c873a5cfe7179b51899cb0fc2fa9e[m
+Author: caomei <2625419650@qq.com>
+Date:   Thu Jun 29 17:42:37 2017 +0800
+
+    change wx views
+
+[33mcommit 66faba218761417b57a403933edb4a826cd09fa9[m
+Merge: 48c3a30 4026836
+Author: caomei <2625419650@qq.com>
+Date:   Thu Jun 29 17:33:46 2017 +0800
+
+    change wx views
+
+[33mcommit 48c3a30787213e7d18adace9144a11af6316a9e3[m
+Author: caomei <2625419650@qq.com>
+Date:   Thu Jun 29 17:31:47 2017 +0800
+
+    change wx views
+
+[33mcommit 4026836a263f3636bbdbc52a9b0be41893a155e7[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Jun 21 20:18:53 2017 +0800
+
+    debug
+
+[33mcommit 7e2f2bd9d3517c99e85cd7d98b3c9fa7400e9bde[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Jun 21 20:15:34 2017 +0800
+
+    add include config
+
+[33mcommit a45b03c45daa551cce1d7ca79de81b79bdec1c5c[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Jun 21 17:06:37 2017 +0800
+
+    add center wx user
+
+[33mcommit 51583939a541cf7b366ccfa92fde089f57a20377[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Jun 21 14:31:28 2017 +0800
+
+    add wx bug iminfo
+
+[33mcommit cb2052d0c8eae5e475693cc03b533b8404b5e925[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Jun 21 14:15:38 2017 +0800
+
+    add wx bug iminfo
+
+[33mcommit b786b717a29d1fd70986e86cf5f6352769533b4d[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Jun 20 09:56:27 2017 +0800
+
+    add wx oatu
+
+[33mcommit e6984c8b62b0e80de4bbf0a248d293a3b39e5a2b[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Jun 20 08:40:45 2017 +0800
+
+    update erweima
+
+[33mcommit e0ba9fd88531fdf216670dd89ef2bb6878845e55[m
+Author: caomei <2625419650@qq.com>
+Date:   Fri Jun 16 14:16:06 2017 +0800
+
+    update bills change price
+
+[33mcommit dd9f5f05d27e96347397238110ae29c0a4f9d31f[m
+Merge: b3ae4f3 2a44253
+Author: caomei <2625419650@qq.com>
+Date:   Wed Jun 14 09:15:47 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit b3ae4f3b5a588d3df58ff077e686a0d66fdb9881[m
+Author: caomei <2625419650@qq.com>
+Date:   Wed Jun 14 09:15:31 2017 +0800
+
+    debug update count view
+
+[33mcommit 2a4425392e7812a2136bfdea5c67bcf8af02efab[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Jun 13 16:56:07 2017 +0800
+
+    add qqhaer
+
+[33mcommit 65bf82ef6062b82efdf8f260f76ebb2cda72cb52[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Jun 13 16:39:59 2017 +0800
+
+    add qiqihaer
+
+[33mcommit 85c79a524c4cacd371966867bf536e3cc1cff124[m
+Author: caomei <2625419650@qq.com>
+Date:   Tue Jun 13 12:38:05 2017 +0800
+
+    update count views
+
+[33mcommit fb4e0ead95d8acbdff8b477cc217c01284de3e43[m
+Author: caomei <2625419650@qq.com>
+Date:   Mon Jun 12 16:20:13 2017 +0800
+
+    change ceshi zhanghao
+
+[33mcommit 61863ccfc3cbbb726457078452699573cae156f9[m
+Merge: 9d18729 87230da
+Author: caomei <2625419650@qq.com>
+Date:   Mon Jun 12 16:18:47 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit 9d187298a4c8b9bd97509cb35937240ab11b8350[m
+Author: caomei <2625419650@qq.com>
+Date:   Mon Jun 12 16:18:37 2017 +0800
+
+    add city order by created_at desc
+
+[33mcommit 87230da7298a52b8560b408757d43c6e9ef1088d[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Jun 12 15:15:19 2017 +0800
+
+    add weixin zhifu erweima
+
+[33mcommit f50b8f1901928c91713ff598743778041d3b8182[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Jun 12 14:54:56 2017 +0800
+
+    add order num
+
+[33mcommit f879ddc85940e9f892b232bbacca5612ecb84a9b[m
+Author: caomei <2625419650@qq.com>
+Date:   Mon Jun 12 13:49:31 2017 +0800
+
+    debug weixin zhifu
+
+[33mcommit cb7b3a81355717cf0c2a09ef641d17755ac729d1[m
+Merge: 03e63b4 114c7ab
+Author: caomei <2625419650@qq.com>
+Date:   Mon Jun 12 12:08:40 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit 03e63b4456a5a55996d309398d5178fc3c8e3e87[m
+Author: caomei <2625419650@qq.com>
+Date:   Mon Jun 12 12:08:25 2017 +0800
+
+    update weixin zhifu
+
+[33mcommit 114c7ab8d6fe10b27a89e4ae592dcb8d0cfaa6e8[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Jun 11 14:40:50 2017 +0800
+
+    add report index width
+
+[33mcommit 2fad4ea56e60ea6c960b4e20a300bceba58a4e61[m
+Author: caomei <2625419650@qq.com>
+Date:   Thu Jun 8 08:46:00 2017 +0800
+
+    update superadmin
+
+[33mcommit 5942cd303e64f81a28da64b6f86b69ecb07711d1[m
+Merge: fc3f0c6 3711aef
+Author: caomei <2625419650@qq.com>
+Date:   Wed Jun 7 12:09:47 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit fc3f0c6b4214d16a404e276b74ba66ea9986d495[m
+Author: caomei <2625419650@qq.com>
+Date:   Wed Jun 7 12:09:29 2017 +0800
+
+    update about different city
+
+[33mcommit 3711aefaa1f8e26f449814b1c2dcb667e6069d8c[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed May 31 21:36:40 2017 +0800
+
+    add qiniu zhanghu geng huan
+
+[33mcommit 6951393fde20e1b24105ed83e8398721ca2ac4c6[m
+Author: caomei <2625419650@qq.com>
+Date:   Wed May 31 13:34:22 2017 +0800
+
+    update collectbillpeople
+
+[33mcommit 09a12047f467ca892dfa820b10980d13b8feda16[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 26 13:59:12 2017 +0800
+
+    add NOTICE WX_ID
+
+[33mcommit 4c5a39e911656e293ca2c0cc4a9060cdc0a2c8d5[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 26 13:34:36 2017 +0800
+
+    add report city_id
+
+[33mcommit 753e9b6054c554f77d9836d97f91cf2f50a1f0d7[m
+Author: caomei <2625419650@qq.com>
+Date:   Thu May 25 11:26:53 2017 +0800
+
+    change note
+
+[33mcommit eb6cb3a5bdb1a0fbf7c0bd44e8f586be3f320d19[m
+Author: caomei <2625419650@qq.com>
+Date:   Thu May 25 10:26:25 2017 +0800
+
+    add caiwu money
+
+[33mcommit 88a3e14bbe3ddac838cb84f9d583edb961b95502[m
+Author: caomei <2625419650@qq.com>
+Date:   Wed May 24 15:59:45 2017 +0800
+
+    change collectBillpelplr
+
+[33mcommit 777e428208f206a9af29dd0fb38b1b6b41a1c639[m
+Author: caomei <2625419650@qq.com>
+Date:   Wed May 24 08:56:05 2017 +0800
+
+    change billsearch
+
+[33mcommit 160bc6168f4a1367a822abee928dc378d3740bef[m
+Merge: 7703cbb 2218443
+Author: caomei <2625419650@qq.com>
+Date:   Wed May 24 08:25:42 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit 7703cbbf6c6e524002a1d156549386038e0ccec5[m
+Author: caomei <2625419650@qq.com>
+Date:   Wed May 24 08:25:31 2017 +0800
+
+    pull
+
+[33mcommit 221844360f1ff17ccba4016467990564b395b433[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue May 23 21:21:35 2017 +0800
+
+    report add shoudaohuikuan
+
+[33mcommit f87e36ccc4e06d3fbd03313fbe9ecb9bb6c74c2d[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue May 23 20:42:40 2017 +0800
+
+    add update-pay-type-view
+
+[33mcommit da64bf3c7df2bc1841e2464b4683c5bf6ac6cb91[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue May 23 14:36:55 2017 +0800
+
+    add show pay
+
+[33mcommit 939c0bde57786cf6b57f07084dd4374d06e76904[m
+Merge: 8068f83 604e4b3
+Author: caomei <2625419650@qq.com>
+Date:   Tue May 23 13:52:48 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit 8068f8347e41a35dcb3d0cadff5ebf2e72a5e8e3[m
+Author: caomei <2625419650@qq.com>
+Date:   Tue May 23 13:52:36 2017 +0800
+
+    pull
+
+[33mcommit 604e4b33636dcecc4863165768e4cbd663d99255[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue May 23 13:47:37 2017 +0800
+
+    add dai jiesuan bug
+
+[33mcommit 981c2b77ed8eced2f749b0f7914f09b4bae5c6fd[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon May 22 17:31:16 2017 +0800
+
+    debug index-state
+
+[33mcommit 747e8debee0af65be85971b0d2f5ffac57789fab[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon May 22 15:41:08 2017 +0800
+
+    debug
+
+[33mcommit f57b2e53d486f74fe9a25e6f06f2957080fd0af4[m
+Author: caomei <2625419650@qq.com>
+Date:   Mon May 22 12:27:32 2017 +0800
+
+    update bill
+
+[33mcommit 97ed108d7b09759e67abccf11833a90a7eeab334[m
+Author: caomei <2625419650@qq.com>
+Date:   Mon May 22 12:26:19 2017 +0800
+
+    update bills chudan shibai
+
+[33mcommit b99dcc63d2a435fa83c79d735ae0d591128aca5f[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon May 22 11:02:23 2017 +0800
+
+    add huaka  zbf
+
+[33mcommit 5f44b3fcc31b98581fea16ebdc2439e37ce21d18[m
+Merge: bdeedf5 28fd5bc
+Author: caomei <2625419650@qq.com>
+Date:   Mon May 22 09:12:08 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit bdeedf5a8653e09be9657c91e21ad017f6f2dbf6[m
+Author: caomei <2625419650@qq.com>
+Date:   Mon May 22 09:11:55 2017 +0800
+
+    update bills
+
+[33mcommit 28fd5bc53cee3f65c3d3c525162649eb35765a04[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 19 11:20:28 2017 +0800
+
+    add mysql-sh
+
+[33mcommit 22d67b9083b66d09dbf42de0fd08f997170c0d43[m
+Merge: a094149 1f55389
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 19 11:19:43 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit 1f55389d50e6a05ced7551c2ec1e117ab61c3a85[m
+Author: caomei <2625419650@qq.com>
+Date:   Fri May 19 11:11:01 2017 +0800
+
+    update reward
+
+[33mcommit 78458fb2fab9284ed40ae31ccd4c43cc9e894df3[m
+Author: caomei <2625419650@qq.com>
+Date:   Fri May 19 09:10:47 2017 +0800
+
+    update wx/count
+
+[33mcommit a094149fc0014f9913e9bf38035ef9587d097646[m
+Merge: cd60d94 43f00e3
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 19 08:49:30 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit 43f00e3a9cc27600afdc5532e942042323e0662c[m
+Author: caomei <2625419650@qq.com>
+Date:   Fri May 19 08:34:33 2017 +0800
+
+    add reward
+
+[33mcommit cd60d9470e5a48a500974d960ffece34ca6fbd29[m
+Merge: e3f58b0 a58b484
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu May 18 12:14:25 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit e3f58b0a53def79015bc1d6277ad1bec431d7703[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu May 18 12:14:11 2017 +0800
+
+    add count status 5 ‘
+    ；
+
+[33mcommit a58b4842705e260648000bbd8bf8b0e05f770cce[m
+Author: caomei <2625419650@qq.com>
+Date:   Wed May 17 13:59:12 2017 +0800
+
+    change news
+
+[33mcommit f053746abfe1de853d80d4dc1450c4decb47313e[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed May 17 13:33:41 2017 +0800
+
+    add reward-where
+
+[33mcommit 98c9582df0822161c5ef9a88f45cdc578ae7e9c3[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue May 16 16:12:05 2017 +0800
+
+    add bills pay_saler_member
+
+[33mcommit c040d84137a5025a1ee48dc6c499305709a7c145[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue May 16 13:55:59 2017 +0800
+
+    add excel
+
+[33mcommit d7d034bd4fe1e764f3e3241c8ecbb26f49d83626[m
+Merge: 1d8fc43 df29740
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue May 16 10:32:13 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit 1d8fc43eb235621644f999736fda8cd3b8aa3e5a[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue May 16 10:32:03 2017 +0800
+
+    add report
+
+[33mcommit df29740ecf8a12461148d0d671c68479879d2533[m
+Author: caomei <2625419650@qq.com>
+Date:   Tue May 16 09:41:35 2017 +0800
+
+    change saler time
+
+[33mcommit 4fce2aa3f29f7710d2db2aac54907bd6554f482e[m
+Merge: a2bcf67 554ee2d
+Author: caomei <2625419650@qq.com>
+Date:   Tue May 16 09:26:00 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit a2bcf67d52b5d16fe9596e627416c5617ee62158[m
+Author: caomei <2625419650@qq.com>
+Date:   Tue May 16 09:25:40 2017 +0800
+
+    add reward
+
+[33mcommit 817db2dc3000058ba2ab512971983eabd62fd68c[m
+Author: caomei <2625419650@qq.com>
+Date:   Tue May 16 09:24:26 2017 +0800
+
+    add reward
+
+[33mcommit 554ee2de37da55f4a7a096a14734c0d4f9715142[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon May 15 12:59:46 2017 +0800
+
+    add report wait pay
+
+[33mcommit f01a9e2702c83b33dd9921228a48b4d25c0a671a[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 12 15:48:50 2017 +0800
+
+    add backend bills poert  number_jq number_sy
+
+[33mcommit 6c8d7e423bf7f6d1c94784dd17aee52061287f58[m
+Author: caomei <2625419650@qq.com>
+Date:   Fri May 12 15:20:20 2017 +0800
+
+    add address
+
+[33mcommit 1e71b29d54c56b8ecd87c25a085f30e8d4c1a779[m
+Merge: c4ca035 b6b6c27
+Author: caomei <2625419650@qq.com>
+Date:   Fri May 12 13:50:30 2017 +0800
+
+    pull
+
+[33mcommit c4ca0351f88a81f46c8cd0b8441f47f2421a8b24[m
+Author: caomei <2625419650@qq.com>
+Date:   Fri May 12 13:45:46 2017 +0800
+
+    a
+
+[33mcommit b6b6c27df2b3883d86963c18359df8f0279da8e1[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 12 12:55:14 2017 +0800
+
+    add wx  zhifubao  yinhangka  pay type
+
+[33mcommit 9d74590bdcdc0bf0c5cf451a7c534cfbb4cc7571[m
+Merge: 513839c 30f5fbc
+Author: caomei <2625419650@qq.com>
+Date:   Fri May 12 08:49:01 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit 513839cc9499f2406ee3b3c5582cafc127e3c9a6[m
+Author: caomei <2625419650@qq.com>
+Date:   Fri May 12 08:48:50 2017 +0800
+
+    a
+
+[33mcommit 30f5fbc0a65d1d3c6ea92889c5119a450bb17cd9[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 12 08:36:20 2017 +0800
+
+    add backend pay_type department
+
+[33mcommit 6f650de662274589240c45ff74bcb180974e02ac[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu May 11 13:31:07 2017 +0800
+
+    add wx show xianshi  jiage
+
+[33mcommit 1597fb23057483560f6d53121a47d49432d89e20[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu May 11 10:19:27 2017 +0800
+
+    debug add bills controller
+
+[33mcommit 70d80ce0fea6d8ca92190874fc9a6af27f32591d[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu May 11 09:38:24 2017 +0800
+
+    add backend show bao jia
+
+[33mcommit 006d7061cdb8e3575dcab0083be9f409c95fcd04[m
+Merge: 0a90abf 9d8698b
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu May 11 08:41:28 2017 +0800
+
+    add daijia chudan
+
+[33mcommit 0a90abfa0678656591d200ee1d9aab1c53bbcfeb[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu May 11 08:33:45 2017 +0800
+
+    add dai  jia  chu dan
+
+[33mcommit 9d8698be3347b49098d160023278d8f75a7bf079[m
+Author: caomei <2625419650@qq.com>
+Date:   Wed May 10 10:15:50 2017 +0800
+
+    a
+
+[33mcommit d2462b678264d7c4578245a83a3c587a8fb32ccd[m
+Merge: 96ddd7c 9b6cf43
+Author: caomei <2625419650@qq.com>
+Date:   Wed May 10 09:50:08 2017 +0800
+
+    Merge branch 'haibao-im' of 122.49.58.239:lmm/haibao into haibao-im
+
+[33mcommit 96ddd7c09ba536a7588b2ac3ecf4d1a157d00357[m
+Author: caomei <2625419650@qq.com>
+Date:   Wed May 10 09:49:58 2017 +0800
+
+    a
+
+[33mcommit 9b6cf431aa6d7c435e6749f5df77201a1ddbf972[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue May 9 16:05:53 2017 +0800
+
+    add index
+
+[33mcommit 5978ae00e448f88776b3962d846f5bda904c18c5[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue May 9 16:04:37 2017 +0800
+
+    add index
+
+[33mcommit fbca79a6cf0e404cd2c3250fb19bb0304bceef4a[m
+Author: caomei <2625419650@qq.com>
+Date:   Tue May 9 08:48:58 2017 +0800
+
+    change discount
+
+[33mcommit fb1de92ea6cd5f70bb31dd9d9482f5c9424e7593[m
+Author: caomei <2625419650@qq.com>
+Date:   Sun May 7 09:06:28 2017 +0800
+
+    a
+
+[33mcommit 757b2cca4e2f676041b6540e3103dcd6394d32d4[m
+Merge: fdf2f35 67c820f
+Author: caomei <2625419650@qq.com>
+Date:   Sun May 7 09:00:51 2017 +0800
+
+    a
+
+[33mcommit fdf2f356ee95c915e30c1a1518de75d092d32f0c[m
+Author: caomei <2625419650@qq.com>
+Date:   Sun May 7 09:00:31 2017 +0800
+
+    a
+
+[33mcommit 67c820f5b2030319034b33eb6fd287b814602e68[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 5 16:48:48 2017 +0800
+
+    add reply star_date end_date point three
+
+[33mcommit ebcd3401bb4657d0bbe7e421f90a7771cbc3d3dc[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 5 15:43:19 2017 +0800
+
+    modif update_form
+
+[33mcommit 7c3240cd89f40c49a002c70c759e23766391cde9[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 5 15:14:38 2017 +0800
+
+    modif show count type
+
+[33mcommit 77bc98cfdbbe8228113c93185aa2030a38de981e[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 5 15:04:50 2017 +0800
+
+    add reply note
+
+[33mcommit 395f687d1caec5f3beac0b2c277294463d2f7aec[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 5 13:54:37 2017 +0800
+
+    modif delete count
+
+[33mcommit cd338cd8d8d3a6393f542361cf36e21e96a2c370[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 5 13:31:10 2017 +0800
+
+    modif plate_number
+
+[33mcommit 481f4e0f252320455adf6aca00b0af6dcb0d8df7[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 5 13:29:29 2017 +0800
+
+    modif plate_number
+
+[33mcommit 20e7de3763ebee5a9156ac56b52202be7015b7aa[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 5 13:17:43 2017 +0800
+
+    add backend count view data-confirm
+
+[33mcommit ebb4692ba665313382918c822d39ccd152227029[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 5 10:17:24 2017 +0800
+
+    add debug xunjia  hide show
+
+[33mcommit 436f6365a733069a44dbb5d47184021185e36cd5[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri May 5 09:38:15 2017 +0800
+
+    debug  wx  main wachatOauth
+
+[33mcommit 1fe0c7c8ce8c3d55f2df14c440f68cf39804958e[m
+Author: caomei <2625419650@qq.com>
+Date:   Fri May 5 08:46:38 2017 +0800
+
+    a
+
+[33mcommit 222689979c6f0512e5d6d0b64ee7e3f95269954a[m
+Author: caomei <2625419650@qq.com>
+Date:   Fri May 5 08:42:44 2017 +0800
+
+    change update
+
+[33mcommit fb6640d09eff9af7348264085b977a30ea30b3f2[m
+Author: caomei <2625419650@qq.com>
+Date:   Thu May 4 17:18:59 2017 +0800
+
+    change update
+
+[33mcommit 55b11d1fbe24b12b5bb134cc113f85d486b5c0a2[m
+Merge: 53298c3 f4d865c
+Author: caomei <2625419650@qq.com>
+Date:   Thu May 4 16:42:58 2017 +0800
+
+    a
+
+[33mcommit 53298c37c647edd6ab5195cb2c51715d1b07031a[m
+Author: caomei <2625419650@qq.com>
+Date:   Thu May 4 16:41:08 2017 +0800
+
+    a
+
+[33mcommit 41f187cac8b03e23e34c5224a5b1962b39fd8567[m
+Author: caomei <2625419650@qq.com>
+Date:   Thu May 4 16:13:55 2017 +0800
+
+    change update
+
+[33mcommit f4d865c803a09c626c6ee18c38ec4be37c6636c2[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu May 4 15:39:04 2017 +0800
+
+    add backend xubao xinbao  hebing
+
+[33mcommit c9674f0db4b8cd8338d7b919b08b05a7b7f1bb89[m
+Merge: 63c21e5 3fd5fc1
+Author: caomei <2625419650@qq.com>
+Date:   Thu May 4 15:03:46 2017 +0800
+
+    Merge remote-tracking branch 'origin' into haibao-im
+
+[33mcommit d905ee4265e3cfb59fe0279755a6da57364af4a5[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu May 4 13:29:52 2017 +0800
+
+    debug
+
+[33mcommit 63c21e5ae3c332243b826f6b732f127d3b351fbb[m
+Merge: 9723519 b78db0b
+Author: caomei <2625419650@qq.com>
+Date:   Thu May 4 10:42:24 2017 +0800
+
+    a
+
+[33mcommit b78db0ba5b9304e1df0ab249cba1272f8f6e92d7[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu May 4 10:40:51 2017 +0800
+
+    add inform button money card
+
+[33mcommit 9723519364ba79ce969fe82dca34db53508e782c[m
+Author: caomei <2625419650@qq.com>
+Date:   Thu May 4 10:39:33 2017 +0800
+
+    change update
+
+[33mcommit 24950cbffde48060fcaeb2e7a80e177e2ce43803[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu May 4 10:05:34 2017 +0800
+
+    add wx jstx  frend online
+
+[33mcommit 019d85ea08f6e724eae8e31e6ed1e5c1ddda7618[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu May 4 09:39:02 2017 +0800
+
+    debug wx view state
+
+[33mcommit fc0bba5fc9a184108bae15e84a16c98b6e38dad7[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu May 4 08:57:52 2017 +0800
+
+    add company view
+
+[33mcommit 7bcaf504d4f0ab64e3defda3f87b565aa92e3c9b[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed May 3 18:04:30 2017 +0800
+
+    add wx count view
+
+[33mcommit c1b11cac207e0c7f4b1820c00ed4afe08e61399f[m
+Author: caomei <2625419650@qq.com>
+Date:   Wed May 3 10:54:20 2017 +0800
+
+    change update_form
+
+[33mcommit e549d0c316d83238f33ab57a5e69e746c3cd7ffb[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue May 2 10:21:44 2017 +0800
+
+    add order index
+
+[33mcommit 7830ff09f28315aa6649cc19e43e81ddc9d1664e[m
+Author: caomei <2625419650@qq.com>
+Date:   Tue May 2 10:02:39 2017 +0800
+
+    change update
+
+[33mcommit 8e08769d35c2c63d9037d68b04fbf684cb2f1b61[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Apr 28 15:11:26 2017 +0800
+
+    debug  date Y-m-d H:m:s
+
+[33mcommit e32183901346be212e062bfdb8a12f6f50e919c0[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Apr 28 10:43:55 2017 +0800
+
+    debug wangning carete bug
+
+[33mcommit a62ad89caec1a51cf33245e6bfb5e81669c25f7d[m
+Author: caomei <2625419650@qq.com>
+Date:   Fri Apr 28 10:12:46 2017 +0800
+
+    change update
+
+[33mcommit 20738c919f97e3aa30c9fe1c0f1412c7f51ed600[m
+Author: caomei <2625419650@qq.com>
+Date:   Thu Apr 27 13:34:10 2017 +0800
+
+    a
+
+[33mcommit d32882a3aee065601d3f53921f0230f86461484d[m
+Author: caomei <2625419650@qq.com>
+Date:   Thu Apr 27 13:30:35 2017 +0800
+
+    a
+
+[33mcommit 7e78cfe22e4172459f74c65cbbf3a045c36e87da[m
+Author: caomei <2625419650@qq.com>
+Date:   Thu Apr 27 13:24:11 2017 +0800
+
+    a
+
+[33mcommit 47575c297e5f969b15c7c6132301b8f6f95d77d5[m
+Author: caomei <2625419650@qq.com>
+Date:   Thu Apr 27 13:20:01 2017 +0800
+
+    a
+
+[33mcommit 2deec8f0d17da9657d3ba190c3206963b4c7c36d[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Apr 26 14:49:13 2017 +0800
+
+    add wx card
+
+[33mcommit 2eaaee150e8ed54128c23c382042347662b39cde[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Apr 26 09:10:21 2017 +0800
+
+    add car type manager
+
+[33mcommit 1c6b996abf20a21bf9c079f628cf141ffe607138[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Apr 25 08:47:35 2017 +0800
+
+    add model replyImage
+
+[33mcommit bcfd4f749e13b3a81331894e26e79a39381ca9e8[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Apr 25 08:40:12 2017 +0800
+
+    add backend upload image
+
+[33mcommit 45ae349ebe58e7ee45dbe72d64c9fbdc2af7f060[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Apr 24 15:59:46 2017 +0800
+
+    add count cancel
+
+[33mcommit b28c469687585de401ddb42ae420374b93694c05[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Apr 24 14:21:15 2017 +0800
+
+    add count view image postion
+
+[33mcommit 3fd5fc1366491140fa6f4d65369a83f962cd1fba[m
+Author: caomei <2625419650@qq.com>
+Date:   Mon Apr 24 13:43:23 2017 +0800
+
+    a
+
+[33mcommit fdc5a0a263fd93eb93c1696fe6306c5c338388bf[m
+Author: caomei <2625419650@qq.com>
+Date:   Mon Apr 24 13:41:08 2017 +0800
+
+    ceshi
+
+[33mcommit 91f5a01ced31a721cf678f2690b8947ee9460429[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Apr 24 13:30:09 2017 +0800
+
+    add count model modif
+
+[33mcommit 734567f759ea4469912a78aa0897c1d2d53e801e[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Apr 24 11:35:15 2017 +0800
+
+    add three 150W  200W
+
+[33mcommit 59b56236dac5b8d62df9127a6ab8a557d29c94e8[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Apr 24 09:33:27 2017 +0800
+
+    debue  count create select city
+
+[33mcommit 8add8b70016436c4d63df4de78f0084274710f94[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Apr 23 17:57:43 2017 +0800
+
+    add upload image qiniu extend
+
+[33mcommit 51f62af73a67de76397d6f6da80412cf103881da[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Apr 23 17:53:16 2017 +0800
+
+    add upload image qiniu extend
+
+[33mcommit dabcb01ab827ec053d5ef960df1debf61e64d7c0[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Apr 23 15:02:25 2017 +0800
+
+    add reply created_at
+
+[33mcommit 6a2cfa22db407b64195961d80398ae47a13d6841[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Apr 23 14:09:05 2017 +0800
+
+    add wx total zongbaofei
+
+[33mcommit 39fa94a7381f9fd693255398be0fd46e3f612611[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Apr 23 10:52:50 2017 +0800
+
+    add saler card_id
+
+[33mcommit f91553a19f821bce6ad61f692795c9a37eb139b5[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Apr 23 10:33:03 2017 +0800
+
+    update line layui-im
+
+[33mcommit 07d99c355d6be5a2437df3f7520ca8557f3131a9[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Apr 23 10:31:12 2017 +0800
+
+    update layui-im
+
+[33mcommit a992718d8112d61584d1a014b6a645e30b8e18b3[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Apr 23 09:16:11 2017 +0800
+
+    debug fs + level
+
+[33mcommit 5ecf200b343b58c285e63590676bc582937cc5de[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Apr 23 09:14:06 2017 +0800
+
+    delete  tixian
+
+[33mcommit e13f9c1f3c02e21312345146a276fcac76f3210e[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Apr 23 09:08:31 2017 +0800
+
+    add level modif
+
+[33mcommit e95333b4ef62af54bca75fd32d774e99a14c4740[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Apr 21 17:03:20 2017 +0800
+
+    debug  add  saler jbf point
+
+[33mcommit fa77d2a20872457a62cfd5ac49b15a56394d7316[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Apr 21 10:58:44 2017 +0800
+
+    debug count saler moren
+
+[33mcommit 173f0eeeac322aadc9006daf161fe83738ab7b9a[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Apr 21 10:52:58 2017 +0800
+
+    debug add wx count view
+
+[33mcommit 0b45fc9e9031784cae4308c6bba9f3a21a5511c6[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Apr 21 10:29:00 2017 +0800
+
+    debug add wx count
+
+[33mcommit e9b87f9bc821c831b7290ca4b30e256e7619b6bc[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Apr 21 10:05:21 2017 +0800
+
+    add count im-info is null empty
+
+[33mcommit fc0baf51a0f3d8fa9df4a14d1b11f8981bc52576[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Apr 21 09:23:38 2017 +0800
+
+    add css fonts mui ttf
+
+[33mcommit 6d1e817160279e089d4d783c37d061b1fcf8158f[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Apr 21 08:58:13 2017 +0800
+
+    debug add saler bank_name bank_account_open
+
+[33mcommit cf36dec4916a5d91714526c69ca99c9e9e8995a9[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 20 14:41:44 2017 +0800
+
+    debug add backend onlien
+
+[33mcommit 9b546748d0ead42980424fad0b587f1e57a069c5[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 20 14:12:31 2017 +0800
+
+    add online status
+
+[33mcommit 5432903b4446edad1ae9074032575a22fd444727[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 20 14:01:55 2017 +0800
+
+    debug add delte count cache
+
+[33mcommit e99016236fc1b407e3adda4f466c75ffadeac8d3[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 20 13:27:57 2017 +0800
+
+    debug view image
+
+[33mcommit 3e4a966125736cbd10b16da193a6615f73587eab[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 20 13:11:42 2017 +0800
+
+    debug wx view image
+
+[33mcommit b90790bf8a7a2db856b00616b12b6eb40a5b363f[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 20 12:34:15 2017 +0800
+
+    debug delete saler_id params
+
+[33mcommit 9d35ae193152680f2cf7b0d1b549333bcc3eec61[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 20 12:32:17 2017 +0800
+
+    debug wx
+
+[33mcommit adeb505f464f08aa931aef4f10ba2032fe599d5a[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 20 11:39:56 2017 +0800
+
+    debug view image
+
+[33mcommit b416f12624646e308fbf5f175a0b606c40e7fff6[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 20 11:30:23 2017 +0800
+
+    debug delete count view s-sall
+
+[33mcommit e49c1bf34d9e262c4e48cc68604471fcc6fb9623[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 20 11:22:49 2017 +0800
+
+    debug add saler nickname
+
+[33mcommit 3956613e710311be05881cc9281c53514334e0c3[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 20 11:21:39 2017 +0800
+
+    debug add delete saler
+
+[33mcommit f00a217f000a12f4ad896979622f217108b15716[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 20 11:13:37 2017 +0800
+
+    debug add call back
+
+[33mcommit 744b9b928c18dd31facbe5fa3f78ff328b0ef18c[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Apr 19 16:12:10 2017 +0800
+
+    debug add redis saler token
+
+[33mcommit abe1160584f4bb1a0f2dcf7a9d768bdd24894f43[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Apr 19 11:35:25 2017 +0800
+
+    debug chat-log log show
+
+[33mcommit 447c62c59bbb192791204a3562505eb2d0aa4842[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Apr 19 09:37:08 2017 +0800
+
+    debug add chat-log
+
+[33mcommit a89c6a1ae0b119070a1792207c6a795cce359e0a[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Apr 19 09:30:55 2017 +0800
+
+    delete config
+
+[33mcommit a539828a9e9d223dcd783d0afcb86c9dc5e70bfe[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Apr 19 09:30:23 2017 +0800
+
+    delete config
+
+[33mcommit d4d87abe4e00a696e3068d20a4511a539cfc0498[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Apr 18 16:20:40 2017 +0800
+
+    debug chat-log
+
+[33mcommit b4bfd23081f8f2568501af6f9ea3acfec6794e9c[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Apr 17 16:42:32 2017 +0800
+
+    add wx upload_img
+
+[33mcommit 6958bcd2bacf80eea947e5c7df3b351c738dfd13[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Apr 17 14:01:32 2017 +0800
+
+    debug add image
+
+[33mcommit 559dc1c3276bdcf3c303a6c62e3a164f22b02343[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Apr 17 11:20:50 2017 +0800
+
+    add image view fangda  suoxiao  xuanzhuan
+
+[33mcommit 5207b1be9ebc0f401a182db83e77f2338d7295b2[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Apr 16 10:51:13 2017 +0800
+
+    debug guochanyu 1 3
+
+[33mcommit 764e6b4aeea8de5cdb19dbf11a5f77894697c43a[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sat Apr 15 13:43:16 2017 +0800
+
+    debug add update saler
+
+[33mcommit 45eb8d20aa21c58b1d8687e28e56ebf921aaec5d[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sat Apr 15 13:31:30 2017 +0800
+
+    add yii-debug saler
+
+[33mcommit e0f8131b968e73145c4324851538bee889416739[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sat Apr 15 13:24:46 2017 +0800
+
+    delete git manager wx/config
+
+[33mcommit c754e7745e5baf960cb909a63a0af26c0c7e52a5[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sat Apr 15 09:18:34 2017 +0800
+
+    add wx reyly jbf
+
+[33mcommit 8313f66d5203fd65e5339f8fdde013ed388db4b2[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 13 17:55:27 2017 +0800
+
+    delete master
+
+[33mcommit 8478744430e1eeaff2f73cec7c71e1ad302e2f91[m
+Merge: f654c7c cd5c6c8
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 13 17:45:24 2017 +0800
+
+    delete master
+
+[33mcommit f654c7c0ac2b5ac23f1c738c83ab239e0a8c56e1[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 13 16:37:17 2017 +0800
+
+    add alert view
+
+[33mcommit 88052d04ae51cd1cd41ac8489566789070571631[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Apr 12 22:22:00 2017 +0800
+
+    add up line weixin;
+
+[33mcommit b881831eade77273cd49ca8935b2cee4b778fb0c[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Apr 11 10:18:20 2017 +0800
+
+    debug down line
+
+[33mcommit d12e15d3e5af4675bd7e54491791566fa275ae76[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Apr 11 09:36:55 2017 +0800
+
+    add xia  mian  cai dan
+
+[33mcommit 53d822719d7b2fdc55ca2b9d0f8a77524ae4366a[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Apr 10 14:17:51 2017 +0800
+
+    debug add discount
+
+[33mcommit 0c864a2424ac993b3c7555f9872de72deca05311[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sat Apr 8 12:27:44 2017 +0800
+
+    debug wx config
+
+[33mcommit dd7d868e0af86920b60dcd411de457340971ced3[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 6 16:42:46 2017 +0800
+
+    debug im add mobile
+
+[33mcommit fd098be7e14c66259363e8a5ae710da51c405fcc[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 6 12:21:57 2017 +0800
+
+    debug wx
+
+[33mcommit 8ba43274c97346df569f8b7874466f7086335c1a[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 6 12:19:34 2017 +0800
+
+    modif menu
+
+[33mcommit e54613e2a5d1ef4b8a1352f40cf1e4e59a450187[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Apr 6 11:37:36 2017 +0800
+
+    add wx up line
+
+[33mcommit a0e68679cb753536ec25f3fe2f841afb3bf92c33[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Apr 5 19:34:53 2017 +0800
+
+    debug
+
+[33mcommit 91d92481c9970167d4fa923cbe6ecfd6c0c7b47a[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Apr 2 22:42:03 2017 +0800
+
+    debug order
+
+[33mcommit d4e3d3c248b8dab5f3b64c64ad87e69f57990742[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Apr 2 22:35:53 2017 +0800
+
+    debug head image
+
+[33mcommit 4154dff3337d0081bd3192795d1ee2fa68a4b68e[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Apr 2 22:04:06 2017 +0800
+
+    add order badge
+
+[33mcommit 1dee494760a3b0a5eed5b1deaad34860e5f45139[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Apr 2 17:41:36 2017 +0800
+
+    debug xubao xinbao
+
+[33mcommit fc97834f29fe2eec6d5f76a1ca153fb91bc03b12[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sat Apr 1 17:01:24 2017 +0800
+
+    delete  message  icon
+
+[33mcommit 8b7645fa85324de664106d634d7f5ac39c665dde[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sat Apr 1 16:07:19 2017 +0800
+
+    modif bills money
+
+[33mcommit 6532ffc034b8eb73a92a925c69380dee65bc39e2[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sat Apr 1 15:34:52 2017 +0800
+
+    add image
+
+[33mcommit 5de7563ed8d633fbf9cfeaa6f5a1e52d14669198[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sat Apr 1 15:10:22 2017 +0800
+
+    add iminfo debug image
+
+[33mcommit f9ee0df3aac2915c7e59a22f976a76daa98176bc[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sat Apr 1 11:24:24 2017 +0800
+
+    add saler money log
+
+[33mcommit 20f10cb9a0d6fe4a2981b20f3059cc551f742645[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sat Apr 1 09:31:50 2017 +0800
+
+    debug modif count wx include_once
+
+[33mcommit 1e18e12076cda897c8567e1c90b6d71e2475e1a6[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sat Apr 1 09:27:03 2017 +0800
+
+    modif saler money
+
+[33mcommit e9d6e983e955b6deb5c114014e60edab4961d188[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sat Apr 1 08:27:04 2017 +0800
+
+    debug add my-view
+
+[33mcommit 062e9b0e3a278f0c9d8c869bc456fff8aa1db6e3[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Mar 31 13:42:16 2017 +0800
+
+    add debug
+
+[33mcommit 643c92c7fdd763fea03b41fbb236654e2d8d6abf[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Mar 31 13:25:06 2017 +0800
+
+    add view
+
+[33mcommit cf4899d8767da17de10a6198f501b90ffc3fbbd2[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Mar 30 13:20:45 2017 +0800
+
+    add wx css
+
+[33mcommit 4e594fc49b7ca430d034970f7dff953b5b0e3def[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Mar 28 15:29:46 2017 +0800
+
+    socket
+
+[33mcommit 8d6dcbd96e60d388e60ea467e79757573d4d1598[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Mar 24 09:13:59 2017 +0800
+
+    add select company one
+
+[33mcommit 55c924bde8afa1e3303e5f332f0d62f7e5ab2499[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Mar 23 09:23:00 2017 +0800
+
+    add company select one
+
+[33mcommit cc68bd6de587f30d0e5ed2860b144790e9f3d739[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Mar 19 15:01:21 2017 +0800
+
+    debug yii cache
+
+[33mcommit 093db0608c907a2c1c3a00e6d437e0345ba141c6[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Mar 14 09:02:42 2017 +0800
+
+    delete no use
+
+[33mcommit 5af411274d8f0f2e1be0581d55f159b302a5ebd8[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Mar 13 14:40:13 2017 +0800
+
+    debug wx saler
+
+[33mcommit 6113ab582a35d2e87485c4f60d25b52eb1a4aab0[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Mar 13 09:16:22 2017 +0800
+
+    debug
+
+[33mcommit b69b500253dddef81248ba17458d46579df0d1e8[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Mar 9 15:59:24 2017 +0800
+
+    debug add wx
+
+[33mcommit 07f10d0032e458b8a7b19b246c4a8c99221c4e60[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Mar 9 09:28:49 2017 +0800
+
+    debug wx im
+
+[33mcommit 3c7853975efc749b0f4b4d0380f63d431b221b72[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 8 15:17:37 2017 +0800
+
+    debug im pop wait count
+
+[33mcommit cf240edd00eedc28610e3fb4cf66d95cf3d62bec[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 8 10:25:20 2017 +0800
+
+    debug lay-chat
+
+[33mcommit cd2ef417018893b8077856a96b3177f0ff64ff4c[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Mar 5 15:52:23 2017 +0800
+
+    debug im
+
+[33mcommit c32f666c86529a0f558cefd85a77f864fcc33be0[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Mar 5 15:06:15 2017 +0800
+
+    debug wx im
+
+[33mcommit 93494925bac4c1e43c08559c8add1b19ebfaab5c[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Mar 5 13:52:13 2017 +0800
+
+    debug im js
+
+[33mcommit d778a6e0b51b06b4f668311babf0f564b65ac59c[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Mar 5 13:31:28 2017 +0800
+
+    debug lay
+
+[33mcommit 112e4da7c84450172017051469b41a8b4a1c1e08[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Mar 5 13:15:05 2017 +0800
+
+    debug mobile
+
+[33mcommit 82b75d2c7733261ad6e8223750eac6391c439c02[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Mar 5 11:35:49 2017 +0800
+
+    debug layin
+
+[33mcommit e2edcc761ca61a70c4bf18f6aafd53026bca9917[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Mar 5 09:25:24 2017 +0800
+
+    add laychat mobile
+
+[33mcommit 6e42142f3507720cc4bfea1750d9afa24a50a564[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Mar 3 15:23:13 2017 +0800
+
+    debug add lay-chat
+
+[33mcommit cd5c6c851bf6a57505c4c264f62848705eaa5bcb[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Mar 3 08:47:25 2017 +0800
+
+    debug add saler
+
+[33mcommit 0efad0ecd1549ed86c86550d9b4270fed312294f[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Mar 2 14:59:02 2017 +0800
+
+    add debug wx saler show menoy
+
+[33mcommit edd1378eed830770d98a53e89566bbadead56705[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Mar 2 14:30:33 2017 +0800
+
+    debug saler_id=5
+
+[33mcommit ecae64b91cbe999199b208fab596ac3ee7e06f36[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Mar 2 10:37:12 2017 +0800
+
+    debug add wx saler update
+
+[33mcommit 1e2e8bd21a0c7c4accf5dd880a3d367e6c5565b1[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Mar 2 10:29:08 2017 +0800
+
+    debug add wx saler update
+
+[33mcommit 295f87522e116a38cc4ba70abbb6ebe92808a5d6[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Mar 2 10:22:15 2017 +0800
+
+    add debug info
+
+[33mcommit 0a31659e10495b7cbcc146128d047fec7653358f[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Mar 2 10:13:34 2017 +0800
+
+    add debug saler info
+
+[33mcommit eb70d5ba419642a00c9730983bba9ef6db4dd437[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 1 22:34:39 2017 +0800
+
+    debug add take succes
+
+[33mcommit e8988bcc44afa1eeeb14589970283ff3263ad574[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 1 19:45:26 2017 +0800
+
+    add saler take
+
+[33mcommit c5f129a43c0842f1ecb98b31e7084be7ee8fd27e[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 1 17:03:33 2017 +0800
+
+    debug add take menoy
+
+[33mcommit 5c25f6be227f5c0699da16117426ecd568c5a756[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 1 14:24:51 2017 +0800
+
+    debug avatar
+
+[33mcommit 9c689ff692d61d359faaca4acb7c6b4aa390908e[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 1 13:51:29 2017 +0800
+
+    debug avatar
+
+[33mcommit 09df0fead25a0f08b4ec029489546252abd54214[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 1 13:21:39 2017 +0800
+
+    debug money  menoy
+
+[33mcommit 3ac8fcd7212150631d275a5a77a8ac2139a6eb7d[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 1 10:32:24 2017 +0800
+
+    add backend
+
+[33mcommit f1a870c676e749c13a8b5333ab82e3d31b30240a[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 1 10:15:08 2017 +0800
+
+    add take money
+
+[33mcommit 75ab33982d018bf18338f98a65be816dcba5caa9[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 1 09:26:37 2017 +0800
+
+    add saler money
+
+[33mcommit f638cd966c104b9a0b252a84f2b14677bad56aee[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 1 08:49:36 2017 +0800
+
+    debug saler
+
+[33mcommit 238aa1a6f0a12e7c9ef92b49b0283238c40753d3[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 1 08:35:48 2017 +0800
+
+    modified .gitignore
+
+[33mcommit 19fda822c4213d2b1210c14eb9a1cd39b4cd8aac[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 1 08:29:53 2017 +0800
+
+    debug bills view
+
+[33mcommit 08b7234a37c2bceb888cbd6a32a732d23fbf7a26[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 1 01:15:27 2017 +0800
+
+    add issue_count
+
+[33mcommit fff2e5e407534d649bf8246856d5fe71e5a319a3[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 1 00:39:26 2017 +0800
+
+    debug wx saler index
+
+[33mcommit c59a33436750c4bc73febe5381891067d00c6e58[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Wed Mar 1 00:31:34 2017 +0800
+
+     wx saler
+
+[33mcommit d3c8c2bb1b6efff785b221eb40d55ddcc0d1367a[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Feb 28 22:03:29 2017 +0800
+
+    debug saler defalut 5
+
+[33mcommit e24d61c97d5f353aad5f20af41a23d23ce8ab46b[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Feb 28 15:19:36 2017 +0800
+
+    add mysql timing
+
+[33mcommit c31fed924cf227a046c725bd142fc89302518b94[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 27 11:26:09 2017 +0800
+
+     add wx qrcode parent
+
+[33mcommit 0b73e01a52c02633d998fe6dba9a87b662a1011b[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 27 09:19:13 2017 +0800
+
+    add qrcode
+
+[33mcommit 81398da834281c2e024b5b8d23c0649a59cebe03[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 27 01:41:21 2017 +0800
+
+    add qrcode
+
+[33mcommit d2005fe2eb6c2a9d0f487f9463986894d2a1a2df[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 27 01:23:40 2017 +0800
+
+    add weixin session;
+
+[33mcommit 7d727d47e78ec5decd46a8813562f43a8724272a[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 27 01:18:53 2017 +0800
+
+    add call  sesssion  saler
+
+[33mcommit 6a0a1e3b675061f2cca6b22745d4b85b28a056bc[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 27 01:03:40 2017 +0800
+
+    add wx auth
+
+[33mcommit 8d236f4aef449fbd8878f5c2c17f8989eeb1c96b[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Feb 26 23:54:52 2017 +0800
+
+    debug weixin url
+
+[33mcommit de8c1d2dea052cd0adc266278aa4022066eb02b8[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Feb 26 14:02:59 2017 +0800
+
+    add session
+
+[33mcommit 3ff0d96a6df401b4c5c150cc14917df2f5fd1cdd[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Feb 26 13:59:06 2017 +0800
+
+    add session
+
+[33mcommit e885e3db1c7c2fb5bd6138e3c267b1e7f7023f8d[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Feb 26 12:46:25 2017 +0800
+
+    add wx create menu
+
+[33mcommit 93d70297f5daccd3894038a367419a6440e104fc[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Feb 26 11:55:58 2017 +0800
+
+    debug wx auth
+
+[33mcommit c84048630ddd4fb7cd7d914a385b8d77988c42d8[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Feb 26 08:47:57 2017 +0800
+
+    add three setting
+
+[33mcommit 414ba821068b2ff61b9f38a879c01ffad480a916[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Feb 26 08:20:48 2017 +0800
+
+    add bills
+
+[33mcommit 62a0cc35602a41fc739f3643571134833d9048d0[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Feb 24 16:44:49 2017 +0800
+
+    add bills start_date end_date
+
+[33mcommit 113092c97bc8685074d6990eea2aebfec6e87df0[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Fri Feb 24 08:38:24 2017 +0800
+
+    add collect bills people
+
+[33mcommit 3e96bfcd80b1ae5eb85f761bd15891e75e6d7577[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Feb 21 14:26:34 2017 +0800
+
+    debug wx bills hiddeninput
+
+[33mcommit 9adc0f3396b40e1a95fd399116fc9c09395271ac[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Feb 21 13:19:04 2017 +0800
+
+    add companys offer
+
+[33mcommit bf042910f1d1db1a90e29bd5047f35ee4f1b3d8d[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 20 16:40:11 2017 +0800
+
+    add wx bills
+
+[33mcommit 7d67ea06f3a37a6ba976fabbdc6cc21e2eb9cf19[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Sun Feb 19 09:18:03 2017 +0800
+
+    add debug
+
+[33mcommit 1248b5cc7a7c89cc3e521905c3e36a6676c538f5[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Feb 14 20:51:41 2017 +0800
+
+    budeg weixin
+
+[33mcommit ab6be5180ee8e056f975d51d4b32a2a87b318cee[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Feb 14 20:33:20 2017 +0800
+
+    debug weixin
+
+[33mcommit d7fd4284e5c80873b38eeeb3e97c5ee6c02f80fb[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Feb 14 20:21:18 2017 +0800
+
+    add wx callback
+
+[33mcommit 19b81b7a2d8c8800ff87a7b32ed8d1be394582fd[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Feb 14 13:05:33 2017 +0800
+
+    debug weach
+
+[33mcommit a95510a527723ef49264fd12beb8af7e7f51b1b4[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Tue Feb 14 11:01:45 2017 +0800
+
+    add debug weachat
+
+[33mcommit 24ea708cc2951278cf5f33998b8682d2c482b740[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 13 16:06:07 2017 +0800
+
+    add center
+
+[33mcommit d2bb4c369b2ee621a95149db3fc83096d63e92a7[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 13 15:41:19 2017 +0800
+
+    add center
+
+[33mcommit 934590e7e0880f81ac1bb12365e6be53cb3a62a2[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 13 15:27:16 2017 +0800
+
+    add watch
+
+[33mcommit 5e4c4cff1595631febdabde1860279ccdfcec57e[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 13 15:08:43 2017 +0800
+
+    debug wechat
+
+[33mcommit 0f986796e5edb2905b526e1c73cfbcca35d1ad19[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 13 14:56:16 2017 +0800
+
+    add create menu
+
+[33mcommit b9f21154f41751011e36d30a30c089b5af703610[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 13 14:15:11 2017 +0800
+
+    add createMenu
+
+[33mcommit e3e655d48baa2e2e341c344e14d22f61060b914e[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 13 13:58:23 2017 +0800
+
+    debug company
+
+[33mcommit 2b58ad4911a2097ca8f574303a9b2c9c2aae62a9[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 13 12:29:42 2017 +0800
+
+    debug site login;
+
+[33mcommit 6d714db9d89ee312ff4d777d1b5621990fb10ba8[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 13 10:11:28 2017 +0800
+
+    update .gitignore
+
+[33mcommit 0e2542a9f338e9b5d41890e3a2f22d1c56c65e83[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Mon Feb 13 09:45:50 2017 +0800
+
+    update composer
+
+[33mcommit da5d745506cbda6e8569d5e2cc44dc2f965ccfaf[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Feb 9 15:25:56 2017 +0800
+
+    delete test
+
+[33mcommit 7fd684e29629ffed7cccaadaae48015494b078a8[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Feb 9 15:24:17 2017 +0800
+
+    add one
+
+[33mcommit faf67b367ac5b5b038e170c0a22fb93045baba74[m
+Author: lmm_dq <lmm_dq@163.com>
+Date:   Thu Feb 9 15:22:15 2017 +0800
+
+    first commit

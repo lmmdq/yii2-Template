@@ -1,0 +1,59 @@
+{
+    "name": "wayhood/yii2-app-template",
+    "description": "Yii 2 Application Template",
+    "keywords": ["yii2", "framework", "advanced", "application template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "wayhood/yii2-setting": "*",
+        "bryglen/yii2-apns-gcm": "dev-master",
+        "mdmsoft/yii2-admin": "dev-master",
+        "qiniu/php-sdk": "dev-master",
+        "yiidoc/yii2-redactor": "*",
+        "yiisoft/yii2-jui": "^2.0",
+        "yiisoft/yii2-elasticsearch": "^2.0",
+        "2amigos/yii2-date-picker-widget": "*",
+        "2amigos/yii2-date-time-picker-widget": "~1.0",
+        "softark/yii2-dual-listbox": "*",
+        "kartik-v/yii2-widget-fileinput": "@dev",
+        "chenkby/yii2-region": "dev-master",
+        "spanjeta/yii2-backup": "*",
+        "kartik-v/yii2-grid": "@dev",
+        "kartik-v/yii2-editable": "@dev",
+        "kartik-v/yii2-widget-timepicker":"*"
+    },
+    "require-dev": {
+        "wayhood/yii2-app-template-files": "*",
+        "symfony/yaml": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

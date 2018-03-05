@@ -1,0 +1,1370 @@
+2017-11-21 16:23:31 [::1][-][-][error][application] Failed to instantiate component or class "authManager".
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Configs.php:122
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Configs.php:139
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Helper.php:106
+2017-11-21 16:23:31 [::1][-][-][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '52509'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511252611.8071
+    'REQUEST_TIME' => 1511252611
+]
+2017-11-21 16:25:28 [::1][-][-][error][application] Failed to instantiate component or class "authManager".
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Configs.php:122
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Configs.php:139
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Helper.php:106
+2017-11-21 16:25:28 [::1][-][-][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/student/index'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53113'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/student/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/student/index'
+    'PHP_SELF' => '/index.php/student/index'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511252728.9242
+    'REQUEST_TIME' => 1511252728
+]
+2017-11-21 16:26:42 [::1][-][3ls8f5emptraceo3ofd8uff621][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/login in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#2 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2017-11-21 16:26:42 [::1][-][3ls8f5emptraceo3ofd8uff621][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/student/index'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53493'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511252802.7702
+    'REQUEST_TIME' => 1511252802
+]
+2017-11-21 16:26:44 [::1][-][3ls8f5emptraceo3ofd8uff621][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/login in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#2 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2017-11-21 16:26:44 [::1][-][3ls8f5emptraceo3ofd8uff621][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/student/index'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53508'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511252804.6429
+    'REQUEST_TIME' => 1511252804
+]
+2017-11-21 16:26:45 [::1][-][3ls8f5emptraceo3ofd8uff621][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/login in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#2 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2017-11-21 16:26:45 [::1][-][3ls8f5emptraceo3ofd8uff621][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/student/index'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53522'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511252805.6979
+    'REQUEST_TIME' => 1511252805
+]
+2017-11-21 16:26:46 [::1][-][3ls8f5emptraceo3ofd8uff621][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/login in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#2 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2017-11-21 16:26:46 [::1][-][3ls8f5emptraceo3ofd8uff621][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/student/index'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53525'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511252806.6746
+    'REQUEST_TIME' => 1511252806
+]
+2017-11-21 16:26:49 [::1][-][-][error][application] Failed to instantiate component or class "authManager".
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Configs.php:122
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Configs.php:139
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Helper.php:106
+2017-11-21 16:26:49 [::1][-][-][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53552'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511252809.5612
+    'REQUEST_TIME' => 1511252809
+]
+2017-11-21 16:26:49 [::1][-][3ls8f5emptraceo3ofd8uff621][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/login in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#2 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2017-11-21 16:26:49 [::1][-][3ls8f5emptraceo3ofd8uff621][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53553'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511252809.5988
+    'REQUEST_TIME' => 1511252809
+]
+2017-11-21 16:27:58 [::1][-][3ls8f5emptraceo3ofd8uff621][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/login in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#2 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2017-11-21 16:27:58 [::1][-][3ls8f5emptraceo3ofd8uff621][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53907'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511252878.5538
+    'REQUEST_TIME' => 1511252878
+]
+2017-11-21 16:28:01 [::1][-][-][error][application] Failed to instantiate component or class "authManager".
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Configs.php:122
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Configs.php:139
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Helper.php:106
+2017-11-21 16:28:01 [::1][-][-][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53933'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511252881.4384
+    'REQUEST_TIME' => 1511252881
+]
+2017-11-21 16:28:01 [::1][-][3ls8f5emptraceo3ofd8uff621][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/login in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#2 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2017-11-21 16:28:01 [::1][-][3ls8f5emptraceo3ofd8uff621][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53934'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511252881.4741
+    'REQUEST_TIME' => 1511252881
+]
+2017-11-21 16:31:04 [::1][-][3ls8f5emptraceo3ofd8uff621][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/login in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#2 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2017-11-21 16:31:04 [::1][-][3ls8f5emptraceo3ofd8uff621][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54898'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511253064.5382
+    'REQUEST_TIME' => 1511253064
+]
+2017-11-21 16:31:05 [::1][-][3ls8f5emptraceo3ofd8uff621][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/login in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#2 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2017-11-21 16:31:05 [::1][-][3ls8f5emptraceo3ofd8uff621][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54901'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511253065.8408
+    'REQUEST_TIME' => 1511253065
+]
+2017-11-21 16:31:06 [::1][-][3ls8f5emptraceo3ofd8uff621][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/login in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#2 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2017-11-21 16:31:06 [::1][-][3ls8f5emptraceo3ofd8uff621][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54926'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511253066.2475
+    'REQUEST_TIME' => 1511253066
+]
+2017-11-21 16:31:13 [::1][-][-][error][application] Failed to instantiate component or class "authManager".
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Configs.php:122
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Configs.php:139
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Helper.php:106
+2017-11-21 16:31:13 [::1][-][-][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/student/index'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54971'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/student/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/student/index'
+    'PHP_SELF' => '/index.php/student/index'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511253073.906
+    'REQUEST_TIME' => 1511253073
+]
+2017-11-21 16:31:13 [::1][-][3ls8f5emptraceo3ofd8uff621][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/login in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#2 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2017-11-21 16:31:13 [::1][-][3ls8f5emptraceo3ofd8uff621][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/student/index'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54972'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511253073.9425
+    'REQUEST_TIME' => 1511253073
+]
+2017-11-21 16:44:23 [::1][-][3ls8f5emptraceo3ofd8uff621][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/login in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#2 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2017-11-21 16:44:23 [::1][-][3ls8f5emptraceo3ofd8uff621][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/student/index'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58625'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511253863.854
+    'REQUEST_TIME' => 1511253863
+]
+2017-11-21 16:44:26 [::1][-][-][error][application] Failed to instantiate component or class "authManager".
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Configs.php:122
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Configs.php:139
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Helper.php:106
+2017-11-21 16:44:26 [::1][-][-][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58643'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511253866.5186
+    'REQUEST_TIME' => 1511253866
+]
+2017-11-21 16:44:26 [::1][-][3ls8f5emptraceo3ofd8uff621][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/login in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#2 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2017-11-21 16:44:26 [::1][-][3ls8f5emptraceo3ofd8uff621][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58644'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511253866.5564
+    'REQUEST_TIME' => 1511253866
+]
+2017-11-21 16:52:41 [::1][-][-][error][application] Failed to instantiate component or class "authManager".
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Configs.php:122
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Configs.php:139
+    in /Users/limingming/Desktop/myProject/sngl/vendor/mdmsoft/yii2-admin/components/Helper.php:106
+2017-11-21 16:52:41 [::1][-][-][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60438'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511254361.7941
+    'REQUEST_TIME' => 1511254361
+]
+2017-11-21 16:52:41 [::1][-][3ls8f5emptraceo3ofd8uff621][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/login in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#2 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/sngl/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2017-11-21 16:52:41 [::1][-][3ls8f5emptraceo3ofd8uff621][info][application] $_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '_csrf_backend' => 'b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"‡†‡f\'í¥/„A{¼O+FĞkÜÖKÌ\'@Ü…\";}'
+    '0AWG_autologin' => '1'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    '0AWG_lastactivity' => '1508400533'
+    'bb8f___session' => '6233kgqS8RyeWk7BApqRCaEG+STr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq/9k+b4wIJ/v0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY'
+    'advanced-backend' => 'akue02eh21p1jub440ffmg0in2'
+    'PHPSESSID' => '3ls8f5emptraceo3ofd8uff621'
+    '_csrf' => 'a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"å…t%V?ìHëpU¥õŠ€DO3ñŞcŒ¸ØCwü§\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'krajeeGridExportSalt' => ' Ç4¢ÁäYı%TRıøŠyR˜ƒ³b4¬Ô\'™J'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60439'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9009'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/sngl/apps/front/web/index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:9009'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; _csrf_backend=b49e70b77588eaeb3ece2e88d272353cd3ffd11964df259548bdef3eba2bc51ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%11%87%86%17%87%1Cf%27%ED%A5%7F%2F%1F%84A%7B%BCO%1E%2BF%D0k%DC%08%D6K%CC%27%40%DC%85%22%3B%7D; 0AWG_autologin=1; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; 0AWG_lastactivity=1508400533; bb8f___session=6233kgqS8RyeWk7BApqRCaEG%2BSTr7hDKWuHs6J9vc3fJM3mtzSHFslT8GCW3S9elyAYgdZFQW0wLWcQN1Qi5Ux9mRwWdaToKvwaUoFTq%2F9k%2Bb4wIJ%2Fv0k8hoGgg3FMbzJvXlDgBAI0zMzwcReWY; advanced-backend=akue02eh21p1jub440ffmg0in2; PHPSESSID=3ls8f5emptraceo3ofd8uff621; _csrf=a302e379936edb8ca6dcbd84f2758ad8bb8a7fa5937c2a21b6d9394504844457a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E5%85t%25V%3F%ECH%EBpU%A5%F5%8A%80%16%11DO%083%F1%04%DEc%8C%B8%D8Cw%FC%A7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1511254361.8281
+    'REQUEST_TIME' => 1511254361
+]
+2018-02-26 15:19:31 [127.0.0.1][-][37knc4vpuh3gmnnbq2r2833eb2][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'front\assets\AppAsset' in file: /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/assets/AppAsset.php. Namespace missing? in /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('front\\assets\\Ap...')
+#1 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/views/layouts/main.php(11): spl_autoload_call('front\\assets\\Ap...')
+#2 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/View.php(332): require('/Users/limingmi...')
+#3 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/Users/limingmi...', Array)
+#4 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/Users/limingmi...', Array, Object(front\controllers\SiteController))
+#5 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#6 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/controllers/SiteController.php(72): yii\base\Controller->render('login', Array)
+#7 [internal function]: front\controllers\SiteController->actionLogin()
+#8 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#11 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#12 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/web/index.php(22): yii\base\Application->run()
+#14 {main}
+2018-02-26 15:19:31 [127.0.0.1][-][37knc4vpuh3gmnnbq2r2833eb2][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    'advanced-backend' => 'ufvcf2uaqtpdp1gge7mcko7d81'
+    '_csrf_backend' => '8932483b581a0526786aad986047d782576679e4ae15095d48687c4542392d16a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"i2r7SLlr5w-XAnExNGczGXHXY8r6A7F8\";}'
+    '__51cke__' => ''
+    '79e2___session' => 'f85bLui10U3cPaxhOFRdj81h9NySEATN4ALOCVQ8zlHgJzldPv4IrGe5ftNx6wcepXsexEr3uL+VLwek/pDZpQEkIFbYBYDHYEcYllthEdReaVNjEncxtSV+z85XGpNZ7wPmTfuk6DtuuQbelTM'
+    'session' => '8474KxfB9ohkmsCUELUfM9WpQDQelWyMTLy/QNWNZZB2/DWvp/7McBlJul1fWC58lfh/QX1L4yiZauPQufk7twAfQJspjVnGgbHEpi1Q7+a85lqtaHdy28rzIklBr/VNHlSnpSkMNo9pXYptlA'
+    'action' => 'cloud'
+    '3c1b___session' => '2ce2oyKjALpK2b2yiBP6XfO6inJwxkqOu2H0XePLUnilKlORfDvko6i31szHEcwHgzsWOdiVDxl42zso+PxHxUz/uB3YVy/suh3PsDnUVF96o/i8mEZDRXd6ogwIW/C1v2K+SN8aqu0EEE9IhgI'
+    '3c1b_main-lg' => '0'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1516000007'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1516938299'
+    'thinkphp_show_page_trace' => '0|0'
+    'admin_username' => 'admin'
+    'a8647_times' => '5'
+    '79e2___uniacid' => '1'
+    '79e2___switch' => 'w15TX'
+    '79e2___uid' => '1'
+    '__tins__18838647' => '{\"sid\": 1519090598353, \"vd\": 13, \"expires\": 1519092438559}'
+    '__51laig__' => '95'
+    '_csrf' => '606fca775be15532e7a4d9c0306ff757c7a9358533d8bd3ec97ac28eb3f4324ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ytVONXC3DOFabjroPxARsyqQ6x1j9gTr\";}'
+    'PHPSESSID' => '37knc4vpuh3gmnnbq2r2833eb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52111'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9001'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'HTTP_HOST' => 'localhost:9001'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; advanced-backend=ufvcf2uaqtpdp1gge7mcko7d81; _csrf_backend=8932483b581a0526786aad986047d782576679e4ae15095d48687c4542392d16a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22i2r7SLlr5w-XAnExNGczGXHXY8r6A7F8%22%3B%7D; __51cke__=; 79e2___session=f85bLui10U3cPaxhOFRdj81h9NySEATN4ALOCVQ8zlHgJzldPv4IrGe5ftNx6wcepXsexEr3uL%2BVLwek%2FpDZpQEkIFbYBYDHYEcYllthEdReaVNjEncxtSV%2Bz85XGpNZ7wPmTfuk6DtuuQbelTM; session=8474KxfB9ohkmsCUELUfM9WpQDQelWyMTLy%2FQNWNZZB2%2FDWvp%2F7McBlJul1fWC58lfh%2FQX1L4yiZauPQufk7twAfQJspjVnGgbHEpi1Q7%2Ba85lqtaHdy28rzIklBr%2FVNHlSnpSkMNo9pXYptlA; action=cloud; 3c1b___session=2ce2oyKjALpK2b2yiBP6XfO6inJwxkqOu2H0XePLUnilKlORfDvko6i31szHEcwHgzsWOdiVDxl42zso%2BPxHxUz%2FuB3YVy%2Fsuh3PsDnUVF96o%2Fi8mEZDRXd6ogwIW%2FC1v2K%2BSN8aqu0EEE9IhgI; 3c1b_main-lg=0; Hm_lvt_baf532329283c0cae060310499633101=1516000007; Hm_lpvt_baf532329283c0cae060310499633101=1516938299; thinkphp_show_page_trace=0|0; admin_username=admin; a8647_times=5; 79e2___uniacid=1; 79e2___switch=w15TX; 79e2___uid=1; __tins__18838647=%7B%22sid%22%3A%201519090598353%2C%20%22vd%22%3A%2013%2C%20%22expires%22%3A%201519092438559%7D; __51laig__=95; _csrf=606fca775be15532e7a4d9c0306ff757c7a9358533d8bd3ec97ac28eb3f4324ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ytVONXC3DOFabjroPxARsyqQ6x1j9gTr%22%3B%7D; PHPSESSID=37knc4vpuh3gmnnbq2r2833eb2'
+    'REQUEST_TIME_FLOAT' => 1519629571.8957
+    'REQUEST_TIME' => 1519629571
+]
+2018-02-26 15:19:55 [127.0.0.1][-][37knc4vpuh3gmnnbq2r2833eb2][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'front\assets\AppAsset' in file: /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/assets/AppAsset.php. Namespace missing? in /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('front\\assets\\Ap...')
+#1 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/views/layouts/main.php(11): spl_autoload_call('front\\assets\\Ap...')
+#2 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/View.php(332): require('/Users/limingmi...')
+#3 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/Users/limingmi...', Array)
+#4 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/Users/limingmi...', Array, Object(front\controllers\SiteController))
+#5 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#6 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/controllers/SiteController.php(72): yii\base\Controller->render('login', Array)
+#7 [internal function]: front\controllers\SiteController->actionLogin()
+#8 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#11 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#12 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/web/index.php(22): yii\base\Application->run()
+#14 {main}
+2018-02-26 15:19:55 [127.0.0.1][-][37knc4vpuh3gmnnbq2r2833eb2][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    'advanced-backend' => 'ufvcf2uaqtpdp1gge7mcko7d81'
+    '_csrf_backend' => '8932483b581a0526786aad986047d782576679e4ae15095d48687c4542392d16a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"i2r7SLlr5w-XAnExNGczGXHXY8r6A7F8\";}'
+    '__51cke__' => ''
+    '79e2___session' => 'f85bLui10U3cPaxhOFRdj81h9NySEATN4ALOCVQ8zlHgJzldPv4IrGe5ftNx6wcepXsexEr3uL+VLwek/pDZpQEkIFbYBYDHYEcYllthEdReaVNjEncxtSV+z85XGpNZ7wPmTfuk6DtuuQbelTM'
+    'session' => '8474KxfB9ohkmsCUELUfM9WpQDQelWyMTLy/QNWNZZB2/DWvp/7McBlJul1fWC58lfh/QX1L4yiZauPQufk7twAfQJspjVnGgbHEpi1Q7+a85lqtaHdy28rzIklBr/VNHlSnpSkMNo9pXYptlA'
+    'action' => 'cloud'
+    '3c1b___session' => '2ce2oyKjALpK2b2yiBP6XfO6inJwxkqOu2H0XePLUnilKlORfDvko6i31szHEcwHgzsWOdiVDxl42zso+PxHxUz/uB3YVy/suh3PsDnUVF96o/i8mEZDRXd6ogwIW/C1v2K+SN8aqu0EEE9IhgI'
+    '3c1b_main-lg' => '0'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1516000007'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1516938299'
+    'thinkphp_show_page_trace' => '0|0'
+    'admin_username' => 'admin'
+    'a8647_times' => '5'
+    '79e2___uniacid' => '1'
+    '79e2___switch' => 'w15TX'
+    '79e2___uid' => '1'
+    '__tins__18838647' => '{\"sid\": 1519090598353, \"vd\": 13, \"expires\": 1519092438559}'
+    '__51laig__' => '95'
+    'PHPSESSID' => '37knc4vpuh3gmnnbq2r2833eb2'
+    '_csrf' => '642a8725bcf052d03cf97d80a182e44e74b4910d98da3016a4e662e805624583a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KgLRMs8CAnQDz4IruwPjJTgH4DIFX5BX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52154'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9001'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'HTTP_HOST' => 'localhost:9001'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; advanced-backend=ufvcf2uaqtpdp1gge7mcko7d81; _csrf_backend=8932483b581a0526786aad986047d782576679e4ae15095d48687c4542392d16a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22i2r7SLlr5w-XAnExNGczGXHXY8r6A7F8%22%3B%7D; __51cke__=; 79e2___session=f85bLui10U3cPaxhOFRdj81h9NySEATN4ALOCVQ8zlHgJzldPv4IrGe5ftNx6wcepXsexEr3uL%2BVLwek%2FpDZpQEkIFbYBYDHYEcYllthEdReaVNjEncxtSV%2Bz85XGpNZ7wPmTfuk6DtuuQbelTM; session=8474KxfB9ohkmsCUELUfM9WpQDQelWyMTLy%2FQNWNZZB2%2FDWvp%2F7McBlJul1fWC58lfh%2FQX1L4yiZauPQufk7twAfQJspjVnGgbHEpi1Q7%2Ba85lqtaHdy28rzIklBr%2FVNHlSnpSkMNo9pXYptlA; action=cloud; 3c1b___session=2ce2oyKjALpK2b2yiBP6XfO6inJwxkqOu2H0XePLUnilKlORfDvko6i31szHEcwHgzsWOdiVDxl42zso%2BPxHxUz%2FuB3YVy%2Fsuh3PsDnUVF96o%2Fi8mEZDRXd6ogwIW%2FC1v2K%2BSN8aqu0EEE9IhgI; 3c1b_main-lg=0; Hm_lvt_baf532329283c0cae060310499633101=1516000007; Hm_lpvt_baf532329283c0cae060310499633101=1516938299; thinkphp_show_page_trace=0|0; admin_username=admin; a8647_times=5; 79e2___uniacid=1; 79e2___switch=w15TX; 79e2___uid=1; __tins__18838647=%7B%22sid%22%3A%201519090598353%2C%20%22vd%22%3A%2013%2C%20%22expires%22%3A%201519092438559%7D; __51laig__=95; PHPSESSID=37knc4vpuh3gmnnbq2r2833eb2; _csrf=642a8725bcf052d03cf97d80a182e44e74b4910d98da3016a4e662e805624583a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KgLRMs8CAnQDz4IruwPjJTgH4DIFX5BX%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1519629595.8666
+    'REQUEST_TIME' => 1519629595
+]
+2018-02-26 15:19:57 [127.0.0.1][-][37knc4vpuh3gmnnbq2r2833eb2][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'front\assets\AppAsset' in file: /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/assets/AppAsset.php. Namespace missing? in /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('front\\assets\\Ap...')
+#1 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/views/layouts/main.php(11): spl_autoload_call('front\\assets\\Ap...')
+#2 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/View.php(332): require('/Users/limingmi...')
+#3 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/Users/limingmi...', Array)
+#4 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/Users/limingmi...', Array, Object(front\controllers\SiteController))
+#5 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#6 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/controllers/SiteController.php(72): yii\base\Controller->render('login', Array)
+#7 [internal function]: front\controllers\SiteController->actionLogin()
+#8 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#11 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#12 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/web/index.php(22): yii\base\Application->run()
+#14 {main}
+2018-02-26 15:19:57 [127.0.0.1][-][37knc4vpuh3gmnnbq2r2833eb2][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'Webstorm-9d694238' => '3b1254b5-e047-4658-8531-8175ba0040e6'
+    '0AWG_ulastactivity' => '01dc9fAeseFneUGXVyCh9URsDxMN+EbrHjkVGcDS9Iis71oxpHJY'
+    'advanced-backend' => 'ufvcf2uaqtpdp1gge7mcko7d81'
+    '_csrf_backend' => '8932483b581a0526786aad986047d782576679e4ae15095d48687c4542392d16a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"i2r7SLlr5w-XAnExNGczGXHXY8r6A7F8\";}'
+    '__51cke__' => ''
+    '79e2___session' => 'f85bLui10U3cPaxhOFRdj81h9NySEATN4ALOCVQ8zlHgJzldPv4IrGe5ftNx6wcepXsexEr3uL+VLwek/pDZpQEkIFbYBYDHYEcYllthEdReaVNjEncxtSV+z85XGpNZ7wPmTfuk6DtuuQbelTM'
+    'session' => '8474KxfB9ohkmsCUELUfM9WpQDQelWyMTLy/QNWNZZB2/DWvp/7McBlJul1fWC58lfh/QX1L4yiZauPQufk7twAfQJspjVnGgbHEpi1Q7+a85lqtaHdy28rzIklBr/VNHlSnpSkMNo9pXYptlA'
+    'action' => 'cloud'
+    '3c1b___session' => '2ce2oyKjALpK2b2yiBP6XfO6inJwxkqOu2H0XePLUnilKlORfDvko6i31szHEcwHgzsWOdiVDxl42zso+PxHxUz/uB3YVy/suh3PsDnUVF96o/i8mEZDRXd6ogwIW/C1v2K+SN8aqu0EEE9IhgI'
+    '3c1b_main-lg' => '0'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1516000007'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1516938299'
+    'thinkphp_show_page_trace' => '0|0'
+    'admin_username' => 'admin'
+    'a8647_times' => '5'
+    '79e2___uniacid' => '1'
+    '79e2___switch' => 'w15TX'
+    '79e2___uid' => '1'
+    '__tins__18838647' => '{\"sid\": 1519090598353, \"vd\": 13, \"expires\": 1519092438559}'
+    '__51laig__' => '95'
+    'PHPSESSID' => '37knc4vpuh3gmnnbq2r2833eb2'
+    '_csrf' => '642a8725bcf052d03cf97d80a182e44e74b4910d98da3016a4e662e805624583a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KgLRMs8CAnQDz4IruwPjJTgH4DIFX5BX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52170'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9001'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/é‡‘äº¿åˆ›ç››/cms/apps/front/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'HTTP_HOST' => 'localhost:9001'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'Webstorm-9d694238=3b1254b5-e047-4658-8531-8175ba0040e6; 0AWG_ulastactivity=01dc9fAeseFneUGXVyCh9URsDxMN%2BEbrHjkVGcDS9Iis71oxpHJY; advanced-backend=ufvcf2uaqtpdp1gge7mcko7d81; _csrf_backend=8932483b581a0526786aad986047d782576679e4ae15095d48687c4542392d16a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22i2r7SLlr5w-XAnExNGczGXHXY8r6A7F8%22%3B%7D; __51cke__=; 79e2___session=f85bLui10U3cPaxhOFRdj81h9NySEATN4ALOCVQ8zlHgJzldPv4IrGe5ftNx6wcepXsexEr3uL%2BVLwek%2FpDZpQEkIFbYBYDHYEcYllthEdReaVNjEncxtSV%2Bz85XGpNZ7wPmTfuk6DtuuQbelTM; session=8474KxfB9ohkmsCUELUfM9WpQDQelWyMTLy%2FQNWNZZB2%2FDWvp%2F7McBlJul1fWC58lfh%2FQX1L4yiZauPQufk7twAfQJspjVnGgbHEpi1Q7%2Ba85lqtaHdy28rzIklBr%2FVNHlSnpSkMNo9pXYptlA; action=cloud; 3c1b___session=2ce2oyKjALpK2b2yiBP6XfO6inJwxkqOu2H0XePLUnilKlORfDvko6i31szHEcwHgzsWOdiVDxl42zso%2BPxHxUz%2FuB3YVy%2Fsuh3PsDnUVF96o%2Fi8mEZDRXd6ogwIW%2FC1v2K%2BSN8aqu0EEE9IhgI; 3c1b_main-lg=0; Hm_lvt_baf532329283c0cae060310499633101=1516000007; Hm_lpvt_baf532329283c0cae060310499633101=1516938299; thinkphp_show_page_trace=0|0; admin_username=admin; a8647_times=5; 79e2___uniacid=1; 79e2___switch=w15TX; 79e2___uid=1; __tins__18838647=%7B%22sid%22%3A%201519090598353%2C%20%22vd%22%3A%2013%2C%20%22expires%22%3A%201519092438559%7D; __51laig__=95; PHPSESSID=37knc4vpuh3gmnnbq2r2833eb2; _csrf=642a8725bcf052d03cf97d80a182e44e74b4910d98da3016a4e662e805624583a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KgLRMs8CAnQDz4IruwPjJTgH4DIFX5BX%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1519629597.1876
+    'REQUEST_TIME' => 1519629597
+]

@@ -1,0 +1,2155 @@
+2017-08-18 10:16:57 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503022617
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:120
+2017-08-18 10:16:57 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    'PHPSESSID' => '7ghu7b4ov3r9hicesb355q8pf6'
+    '_csrf' => 'd942348e5e003cf63b6d4b79c0339cb707682e311418248e13755e62eb07ef3ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"¦pÖÃBå—*üÝD||wÇcpGT°WÔ2Óý£ÏHrâ¿\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/test/test?'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57378'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '77'
+    'HTTP_CONTENT_LENGTH' => '77'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; PHPSESSID=7ghu7b4ov3r9hicesb355q8pf6; _csrf=d942348e5e003cf63b6d4b79c0339cb707682e311418248e13755e62eb07ef3ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A6p%D6%C3B%E5%97%2A%FC%DDD%0F%7C%7Cw%C7cpGT%B0W%D42%D3%FD%A3%CFHr%E2%BF%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1503022617.9483
+    'REQUEST_TIME' => 1503022617
+]
+2017-08-18 13:53:42 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503035622
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:120
+2017-08-18 13:53:42 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    'PHPSESSID' => '7ghu7b4ov3r9hicesb355q8pf6'
+    '_csrf' => 'd942348e5e003cf63b6d4b79c0339cb707682e311418248e13755e62eb07ef3ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"¦pÖÃBå—*üÝD||wÇcpGT°WÔ2Óý£ÏHrâ¿\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/test/test?'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57730'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '77'
+    'HTTP_CONTENT_LENGTH' => '77'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; PHPSESSID=7ghu7b4ov3r9hicesb355q8pf6; _csrf=d942348e5e003cf63b6d4b79c0339cb707682e311418248e13755e62eb07ef3ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A6p%D6%C3B%E5%97%2A%FC%DDD%0F%7C%7Cw%C7cpGT%B0W%D42%D3%FD%A3%CFHr%E2%BF%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1503035622.8837
+    'REQUEST_TIME' => 1503035622
+]
+2017-08-25 09:24:19 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503624259
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:117
+2017-08-25 09:24:19 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b540000003b'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58139'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '76'
+    'HTTP_CONTENT_LENGTH' => '76'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503624259.7516
+    'REQUEST_TIME' => 1503624259
+]
+2017-08-25 09:24:59 [::1][-][ajcbj28siedsi256o6j413ntf7][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503624299
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:118
+2017-08-25 09:24:59 [::1][-][ajcbj28siedsi256o6j413ntf7][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: allowedVersions in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:198
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php(198): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Users/limingmi...', 198, Array)
+#1 [internal function]: api\controllers\RestController->actionIndex()
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#6 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php(22): yii\base\Application->run()
+#8 {main}
+2017-08-25 09:24:59 [::1][-][ajcbj28siedsi256o6j413ntf7][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b540000003b'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58141'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '92'
+    'HTTP_CONTENT_LENGTH' => '92'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503624299.0195
+    'REQUEST_TIME' => 1503624299
+]
+2017-08-25 09:25:35 [::1][-][ajcbj28siedsi256o6j413ntf7][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503624335
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:118
+2017-08-25 09:25:35 [::1][-][ajcbj28siedsi256o6j413ntf7][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: allowedVersions in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:198
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php(198): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Users/limingmi...', 198, Array)
+#1 [internal function]: api\controllers\RestController->actionIndex()
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#6 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php(22): yii\base\Application->run()
+#8 {main}
+2017-08-25 09:25:35 [::1][-][ajcbj28siedsi256o6j413ntf7][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b540000003d'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58220'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503624335.7539
+    'REQUEST_TIME' => 1503624335
+]
+2017-08-25 09:26:36 [::1][-][ajcbj28siedsi256o6j413ntf7][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503624396
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:118
+2017-08-25 09:26:36 [::1][-][ajcbj28siedsi256o6j413ntf7][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: allowedVersions in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:198
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php(198): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Users/limingmi...', 198, Array)
+#1 [internal function]: api\controllers\RestController->actionIndex()
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#6 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php(22): yii\base\Application->run()
+#8 {main}
+2017-08-25 09:26:36 [::1][-][ajcbj28siedsi256o6j413ntf7][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b540000003d'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58223'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503624396.6941
+    'REQUEST_TIME' => 1503624396
+]
+2017-08-25 09:26:37 [::1][-][ajcbj28siedsi256o6j413ntf7][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503624397
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:118
+2017-08-25 09:26:37 [::1][-][ajcbj28siedsi256o6j413ntf7][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: allowedVersions in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:198
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php(198): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Users/limingmi...', 198, Array)
+#1 [internal function]: api\controllers\RestController->actionIndex()
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#6 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php(22): yii\base\Application->run()
+#8 {main}
+2017-08-25 09:26:37 [::1][-][ajcbj28siedsi256o6j413ntf7][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b540000003d'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58225'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503624397.9359
+    'REQUEST_TIME' => 1503624397
+]
+2017-08-25 09:26:55 [::1][-][ajcbj28siedsi256o6j413ntf7][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503624415
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:118
+2017-08-25 09:26:55 [::1][-][ajcbj28siedsi256o6j413ntf7][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: allowedVersions in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:198
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php(198): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Users/limingmi...', 198, Array)
+#1 [internal function]: api\controllers\RestController->actionIndex()
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#6 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php(22): yii\base\Application->run()
+#8 {main}
+2017-08-25 09:26:55 [::1][-][ajcbj28siedsi256o6j413ntf7][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b540000003d'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58227'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503624415.7296
+    'REQUEST_TIME' => 1503624415
+]
+2017-08-25 09:26:56 [::1][-][ajcbj28siedsi256o6j413ntf7][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503624416
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:118
+2017-08-25 09:26:56 [::1][-][ajcbj28siedsi256o6j413ntf7][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: allowedVersions in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:198
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php(198): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Users/limingmi...', 198, Array)
+#1 [internal function]: api\controllers\RestController->actionIndex()
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#6 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php(22): yii\base\Application->run()
+#8 {main}
+2017-08-25 09:26:56 [::1][-][ajcbj28siedsi256o6j413ntf7][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b540000003d'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58229'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503624416.8412
+    'REQUEST_TIME' => 1503624416
+]
+2017-08-25 09:27:27 [::1][-][ajcbj28siedsi256o6j413ntf7][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503624447
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:118
+2017-08-25 09:27:27 [::1][-][ajcbj28siedsi256o6j413ntf7][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: allowedVersions in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:198
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php(198): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Users/limingmi...', 198, Array)
+#1 [internal function]: api\controllers\RestController->actionIndex()
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#6 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php(22): yii\base\Application->run()
+#8 {main}
+2017-08-25 09:27:27 [::1][-][ajcbj28siedsi256o6j413ntf7][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b540000003d'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58231'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503624447.6884
+    'REQUEST_TIME' => 1503624447
+]
+2017-08-25 09:27:44 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503624464
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:118
+2017-08-25 09:27:44 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b540000003d'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58234'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503624464.7394
+    'REQUEST_TIME' => 1503624464
+]
+2017-08-25 09:29:06 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503624546
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:118
+2017-08-25 09:29:06 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b540000003d'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58239'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503624546.0476
+    'REQUEST_TIME' => 1503624546
+]
+2017-08-25 09:33:47 [::1][-][ajcbj28siedsi256o6j413ntf7][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503624827
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:33:47 [::1][-][ajcbj28siedsi256o6j413ntf7][error][Error] Error: Call to undefined method common\models\redis\SalerToken::selectDb() in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:242
+Stack trace:
+#0 [internal function]: api\controllers\RestController->actionIndex()
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php(22): yii\base\Application->run()
+#7 {main}
+2017-08-25 09:33:47 [::1][-][ajcbj28siedsi256o6j413ntf7][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000043'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58489'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503624827.4979
+    'REQUEST_TIME' => 1503624827
+]
+2017-08-25 09:33:53 [::1][-][ajcbj28siedsi256o6j413ntf7][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503624833
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:33:53 [::1][-][ajcbj28siedsi256o6j413ntf7][error][Error] Error: Call to undefined method common\models\redis\SalerToken::selectDb() in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:242
+Stack trace:
+#0 [internal function]: api\controllers\RestController->actionIndex()
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php(22): yii\base\Application->run()
+#7 {main}
+2017-08-25 09:33:53 [::1][-][ajcbj28siedsi256o6j413ntf7][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000043'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58492'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503624833.2311
+    'REQUEST_TIME' => 1503624833
+]
+2017-08-25 09:34:13 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503624853
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:34:13 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000043'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58495'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503624853.6248
+    'REQUEST_TIME' => 1503624853
+]
+2017-08-25 09:34:37 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503624877
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:34:37 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000043'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58501'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503624877.8576
+    'REQUEST_TIME' => 1503624877
+]
+2017-08-25 09:43:41 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503625421
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:43:41 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000043'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58524'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503625421.3134
+    'REQUEST_TIME' => 1503625421
+]
+2017-08-25 09:44:27 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503625467
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:44:27 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000043'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58531'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503625467.8183
+    'REQUEST_TIME' => 1503625467
+]
+2017-08-25 09:44:28 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503625468
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:44:28 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000043'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58534'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503625468.8308
+    'REQUEST_TIME' => 1503625468
+]
+2017-08-25 09:44:34 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503625474
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:44:34 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000043'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58537'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503625474.4496
+    'REQUEST_TIME' => 1503625474
+]
+2017-08-25 09:45:21 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503625521
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:45:21 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000043'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58540'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503625521.7769
+    'REQUEST_TIME' => 1503625521
+]
+2017-08-25 09:47:33 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503625653
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:47:33 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000047'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58699'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503625653.9242
+    'REQUEST_TIME' => 1503625653
+]
+2017-08-25 09:47:35 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503625655
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:47:35 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000047'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58702'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503625655.1586
+    'REQUEST_TIME' => 1503625655
+]
+2017-08-25 09:48:59 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503625739
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:48:59 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000047'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58708'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503625739.8589
+    'REQUEST_TIME' => 1503625739
+]
+2017-08-25 09:50:03 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503625803
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:50:03 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000047'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58712'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503625803.1118
+    'REQUEST_TIME' => 1503625803
+]
+2017-08-25 09:50:31 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503625831
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:50:31 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000049'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58795'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503625831.4555
+    'REQUEST_TIME' => 1503625831
+]
+2017-08-25 09:51:18 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503625878
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:51:18 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000049'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58798'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503625878.9148
+    'REQUEST_TIME' => 1503625878
+]
+2017-08-25 09:51:19 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503625879
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 09:51:19 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000049'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58801'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503625879.9032
+    'REQUEST_TIME' => 1503625879
+]
+2017-08-25 10:01:15 [::1][-][-][error][application] å¼€å§‹æ—¥å¿—å¼‚æ­¥æ¶ˆæ¯1503626475
+    in /Users/limingming/Desktop/myProject/haibao/apps/api/controllers/RestController.php:115
+2017-08-25 10:01:15 [::1][-][-][info][application] $_COOKIE = [
+    'return_url' => 'http://localhost:7000/index.php?m=&c=Contact&a=index'
+    'top_menu' => '84'
+    'left_menu' => ''
+    'current_node' => ''
+    'Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512386'
+    'Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4' => '1497512787'
+    'thinkphp_show_page_trace' => '0|0'
+    'deviceid' => '1496303514833'
+    'xinhu_mo_adminid' => '1'
+    'xinhu_ca_adminuser' => 'admin'
+    'xinhu_ca_rempass' => '0'
+    '57da___session' => 'eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9'
+    'ext_type' => '1'
+    'Hm_lvt_baf532329283c0cae060310499633101' => '1501822502'
+    'Hm_lpvt_baf532329283c0cae060310499633101' => '1501822614'
+    '_csrf_backend' => '31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"ïäióxWïÒH_ª*Œºº¿y?_ ¤fƒ\";}'
+    '_csrf' => '4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"g¹USjóoöÚð°æÁÕ‡	xë¨)¦â&»”b\";}'
+    'PHPSESSID' => 'ajcbj28siedsi256o6j413ntf7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 6
+    'laychat_backend' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+    ]
+    'laychat' => [
+        'id' => 21
+        'username' => 'è¶…çº§ç®¡ç†å‘˜'
+        'sign' => ''
+        'avatar' => 'http://cdn.hbw365.cn//78f866398fc316bef0a64aa49d2f0504'
+        'client_id' => '7f0000010b5400000049'
+    ]
+    'krajeeGridExportSalt' => 'ÜE~¬o„|\0*†Ð‚e\'íÎ×üõî(QÕÇÓn;·Ifo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58867'
+    'SERVER_SOFTWARE' => 'PHP 7.0.7 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8003'
+    'REQUEST_URI' => '/test/test?'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/limingming/Desktop/myProject/haibao/apps/api/web/index.php'
+    'PATH_INFO' => '/test/test'
+    'PHP_SELF' => '/index.php/test/test'
+    'HTTP_HOST' => 'localhost:8003'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '191'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://ieoejemkppmjcdfbnfphhpbfmallhfnc'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'return_url=http%3A//localhost%3A7000/index.php%3Fm%3D%26c%3DContact%26a%3Dindex; top_menu=84; left_menu=; current_node=; Hm_lvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512386; Hm_lpvt_2a935166b0c9b73fef3c8bae58b95fe4=1497512787; thinkphp_show_page_trace=0|0; deviceid=1496303514833; xinhu_mo_adminid=1; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; 57da___session=eyJ1aWQiOiIxIiwibGFzdHZpc2l0IjoiMTUwMDUzMzQ2NSIsImxhc3RpcCI6IjEyMi4xNTYuMjE5LjE5OSIsImhhc2giOiI0N2QyNmM1YjYyM2Y2NDFjNTBkNmU0ZGY3MmRhODM4MiJ9; ext_type=1; Hm_lvt_baf532329283c0cae060310499633101=1501822502; Hm_lpvt_baf532329283c0cae060310499633101=1501822614; _csrf_backend=31ef53e71a02d6ed5f96ac13812b21f380e283139d2f70f0eb2e8e80cd3269d8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22%EF%E4i%F3%03%1AxW%EF%0B%D2H%1F%06_%AA%19%02%2A%06%8C%BA%BA%BFy%01%3F_+%A4f%83%22%3B%7D; _csrf=4ca6c9df82d7f4c9ab27527bb49671786e3035da4e20e7a3a794dded2ddd2b9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g%11%B9USj%F3o%F6%DA%16%F0%10%B0%E6%C1%D5%87%01%09x%EB%A8%29%A6%07%E2%26%BB%94%18b%22%3B%7D; PHPSESSID=ajcbj28siedsi256o6j413ntf7'
+    'REQUEST_TIME_FLOAT' => 1503626475.6782
+    'REQUEST_TIME' => 1503626475
+]

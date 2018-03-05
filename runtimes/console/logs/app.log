@@ -1,0 +1,1143 @@
+2017-04-19 14:14:10 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "redis-test/create". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('redis-test/crea...', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('redis-test/crea...', Array)
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "redis-test/create". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('redis-test/crea...', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#3 {main}
+2017-04-19 14:14:10 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.SG3zOesct4/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.sgewgpM0DD/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/Users/limingming/Desktop/myProject/haibao/scripts/yii'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492582450.1485
+    'REQUEST_TIME' => 1492582450
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'redis-test/create'
+    ]
+    'argc' => 2
+]
+2017-04-19 14:16:04 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "redis". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('redis', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('redis', Array)
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "redis". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('redis', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#3 {main}
+2017-04-19 14:16:04 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.SG3zOesct4/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.sgewgpM0DD/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/Users/limingming/Desktop/myProject/haibao/scripts/yii'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492582564.1934
+    'REQUEST_TIME' => 1492582564
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'redis'
+        2 => 'create'
+    ]
+    'argc' => 3
+]
+2017-04-19 14:16:14 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "redis/create". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('redis/create', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('redis/create', Array)
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "redis/create". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('redis/create', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#3 {main}
+2017-04-19 14:16:14 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.SG3zOesct4/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.sgewgpM0DD/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/Users/limingming/Desktop/myProject/haibao/scripts/yii'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492582574.5649
+    'REQUEST_TIME' => 1492582574
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'redis/create'
+    ]
+    'argc' => 2
+]
+2017-04-19 14:19:07 [-][-][-][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'console\controllers\ReidsTestController' in file: /Users/limingming/Desktop/myProject/haibao/apps/console/controllers/ReidsTestController.php. Namespace missing? in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/controllers/HelpController.php(275): class_exists('console\\control...')
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/controllers/HelpController.php(258): yii\console\controllers\HelpController->validateControllerClass('console\\control...')
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/controllers/HelpController.php(181): yii\console\controllers\HelpController->getModuleCommands(Object(yii\console\Application))
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/controllers/HelpController.php(193): yii\console\controllers\HelpController->getCommands()
+#6 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/controllers/HelpController.php(288): yii\console\controllers\HelpController->getCommandDescriptions()
+#7 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/controllers/HelpController.php(67): yii\console\controllers\HelpController->getDefaultHelp()
+#8 [internal function]: yii\console\controllers\HelpController->actionIndex(NULL)
+#9 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#11 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('', Array)
+#12 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('', Array)
+#13 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('', Array)
+#14 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('', Array)
+#15 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#17 {main}
+2017-04-19 14:19:07 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.SG3zOesct4/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.sgewgpM0DD/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/Users/limingming/Desktop/myProject/haibao/scripts/yii'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492582747.1058
+    'REQUEST_TIME' => 1492582747
+    'argv' => [
+        0 => 'scripts/yii'
+    ]
+    'argc' => 1
+]
+2017-04-19 14:21:08 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "passwod/create". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('passwod/create', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('passwod/create', Array)
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "passwod/create". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('passwod/create', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#3 {main}
+2017-04-19 14:21:08 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.SG3zOesct4/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.sgewgpM0DD/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/Users/limingming/Desktop/myProject/haibao/scripts/yii'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492582868.5899
+    'REQUEST_TIME' => 1492582868
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'passwod/create'
+    ]
+    'argc' => 2
+]
+2017-04-19 14:21:41 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "passwod/create". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('passwod/create', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('passwod/create', Array)
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "passwod/create". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('passwod/create', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#3 {main}
+2017-04-19 14:21:41 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.SG3zOesct4/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.sgewgpM0DD/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/Users/limingming/Desktop/myProject/haibao/scripts/yii'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492582901.8458
+    'REQUEST_TIME' => 1492582901
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'passwod/create'
+    ]
+    'argc' => 2
+]
+2017-04-19 14:22:32 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "passwod/create". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('passwod/create', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('passwod/create', Array)
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "passwod/create". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('passwod/create', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#3 {main}
+2017-04-19 14:22:32 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.SG3zOesct4/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.sgewgpM0DD/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/Users/limingming/Desktop/myProject/haibao/scripts/yii'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492582952.3907
+    'REQUEST_TIME' => 1492582952
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'passwod/create'
+    ]
+    'argc' => 2
+]
+2017-04-19 14:23:07 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "passwod/create". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('passwod/create', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('passwod/create', Array)
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "passwod/create". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('passwod/create', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#3 {main}
+2017-04-19 14:23:07 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.SG3zOesct4/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.sgewgpM0DD/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/Users/limingming/Desktop/myProject/haibao/scripts/yii'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492582987.204
+    'REQUEST_TIME' => 1492582987
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'passwod/create'
+    ]
+    'argc' => 2
+]
+2017-04-19 14:23:16 [-][-][-][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin' for key 'user_unique_username' in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/db/Command.php:846
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/db/Command.php(846): PDOStatement->execute()
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%admin}}', Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/db/BaseActiveRecord.php(634): yii\db\ActiveRecord->insert(false, NULL)
+#5 /Users/limingming/Desktop/myProject/haibao/apps/console/controllers/PasswordController.php(22): yii\db\BaseActiveRecord->save(false)
+#6 [internal function]: console\controllers\PasswordController->actionCreate()
+#7 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('create', Array)
+#10 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('create', Array)
+#11 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('password/create', Array)
+#12 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('password/create', Array)
+#13 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin' for key 'user_unique_username'
+The SQL being executed was: INSERT INTO `t_admin` (`username`, `password_hash`, `auth_key`, `created_at`, `updated_at`) VALUES ('admin', '$2y$13$5KJRd8x3LyL4F3xPf/Xkj.OGAs8JcXl.ii65dUCFvyTRmVbqu.XjS', 'OEVb4syhJWcwwQ87t0D0WtsZ7uA88Wx6', 1492582996, 1492582996) in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/db/Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `t_...')
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%admin}}', Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/db/BaseActiveRecord.php(634): yii\db\ActiveRecord->insert(false, NULL)
+#5 /Users/limingming/Desktop/myProject/haibao/apps/console/controllers/PasswordController.php(22): yii\db\BaseActiveRecord->save(false)
+#6 [internal function]: console\controllers\PasswordController->actionCreate()
+#7 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('create', Array)
+#10 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('create', Array)
+#11 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('password/create', Array)
+#12 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('password/create', Array)
+#13 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'admin' for key 'user_unique_username'
+)
+
+2017-04-19 14:23:15 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.SG3zOesct4/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.sgewgpM0DD/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/Users/limingming/Desktop/myProject/haibao/scripts/yii'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492582995.6585
+    'REQUEST_TIME' => 1492582995
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'password/create'
+    ]
+    'argc' => 2
+]
+2017-04-19 14:29:07 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Creating default object from empty value in /Users/limingming/Desktop/myProject/haibao/apps/console/controllers/RedisController.php:21
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/apps/console/controllers/RedisController.php(21): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', '/Users/limingmi...', 21, Array)
+#1 [internal function]: console\controllers\RedisController->actionCreate()
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('create', Array)
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('create', Array)
+#6 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('redis/create', Array)
+#7 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('redis/create', Array)
+#8 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#10 {main}
+2017-04-19 14:29:07 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.SG3zOesct4/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.sgewgpM0DD/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/Users/limingming/Desktop/myProject/haibao/scripts/yii'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492583347.3762
+    'REQUEST_TIME' => 1492583347
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'redis/create'
+    ]
+    'argc' => 2
+]
+2017-04-19 14:30:14 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Creating default object from empty value in /Users/limingming/Desktop/myProject/haibao/apps/console/controllers/RedisController.php:21
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/apps/console/controllers/RedisController.php(21): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', '/Users/limingmi...', 21, Array)
+#1 [internal function]: console\controllers\RedisController->actionCreate()
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('create', Array)
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('create', Array)
+#6 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('redis/create', Array)
+#7 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('redis/create', Array)
+#8 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#10 {main}
+2017-04-19 14:30:14 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.SG3zOesct4/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.sgewgpM0DD/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/Users/limingming/Desktop/myProject/haibao/scripts/yii'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492583414.4418
+    'REQUEST_TIME' => 1492583414
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'redis/create'
+    ]
+    'argc' => 2
+]
+2017-04-19 14:30:19 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Creating default object from empty value in /Users/limingming/Desktop/myProject/haibao/apps/console/controllers/RedisController.php:21
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/apps/console/controllers/RedisController.php(21): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', '/Users/limingmi...', 21, Array)
+#1 [internal function]: console\controllers\RedisController->actionCreate()
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('create', Array)
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('create', Array)
+#6 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('redis/create', Array)
+#7 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('redis/create', Array)
+#8 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#10 {main}
+2017-04-19 14:30:19 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.SG3zOesct4/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.sgewgpM0DD/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/Users/limingming/Desktop/myProject/haibao/scripts/yii'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492583419.7232
+    'REQUEST_TIME' => 1492583419
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'redis/create'
+    ]
+    'argc' => 2
+]
+2017-04-19 14:30:22 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Creating default object from empty value in /Users/limingming/Desktop/myProject/haibao/apps/console/controllers/RedisController.php:21
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/apps/console/controllers/RedisController.php(21): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', '/Users/limingmi...', 21, Array)
+#1 [internal function]: console\controllers\RedisController->actionCreate()
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('create', Array)
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('create', Array)
+#6 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('redis/create', Array)
+#7 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('redis/create', Array)
+#8 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#10 {main}
+2017-04-19 14:30:22 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.SG3zOesct4/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.sgewgpM0DD/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/Users/limingming/Desktop/myProject/haibao/scripts/yii'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492583422.746
+    'REQUEST_TIME' => 1492583422
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'redis/create'
+    ]
+    'argc' => 2
+]
+2017-04-19 14:31:41 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Creating default object from empty value in /Users/limingming/Desktop/myProject/haibao/apps/console/controllers/RedisController.php:21
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/apps/console/controllers/RedisController.php(21): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', '/Users/limingmi...', 21, Array)
+#1 [internal function]: console\controllers\RedisController->actionCreate()
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('create', Array)
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('create', Array)
+#6 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('redis/create', Array)
+#7 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('redis/create', Array)
+#8 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#10 {main}
+2017-04-19 14:31:41 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.SG3zOesct4/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.sgewgpM0DD/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/Users/limingming/Desktop/myProject/haibao/scripts/yii'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492583501.2852
+    'REQUEST_TIME' => 1492583501
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'redis/create'
+    ]
+    'argc' => 2
+]
+2017-04-19 14:32:05 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Creating default object from empty value in /Users/limingming/Desktop/myProject/haibao/apps/console/controllers/RedisController.php:22
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/apps/console/controllers/RedisController.php(22): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', '/Users/limingmi...', 22, Array)
+#1 [internal function]: console\controllers\RedisController->actionCreate()
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('create', Array)
+#5 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('create', Array)
+#6 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('redis/create', Array)
+#7 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('redis/create', Array)
+#8 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#10 {main}
+2017-04-19 14:32:05 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.SG3zOesct4/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.sgewgpM0DD/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t2p0:BBE1C9B7-CC54-4DBB-813C-6404B87C6E9A'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/Users/limingming/Desktop/myProject/haibao/scripts/yii'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492583525.8212
+    'REQUEST_TIME' => 1492583525
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'redis/create'
+    ]
+    'argc' => 2
+]
+2017-08-02 10:00:48 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: data/issuse-date in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('issuse-date', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('issuse-date', Array)
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('data/issuse-dat...', Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('data/issuse-dat...', Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "data/issuse-date". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('data/issuse-dat...', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#3 {main}
+2017-08-02 10:00:48 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t5p0:1207B098-D7E9-4A4D-82CD-FE6A3B8B844F'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.k2jCfcmAU5/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.ZvJ9AGG0wh/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t5p0:1207B098-D7E9-4A4D-82CD-FE6A3B8B844F'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming/Desktop/myProject'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1501639248.7222
+    'REQUEST_TIME' => 1501639248
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'data/issuse-date'
+    ]
+    'argc' => 2
+]
+2017-08-02 10:00:59 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: data/ in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('', Array)
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('data', Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('data', Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "data". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('data', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#3 {main}
+2017-08-02 10:00:59 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t5p0:1207B098-D7E9-4A4D-82CD-FE6A3B8B844F'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.k2jCfcmAU5/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.ZvJ9AGG0wh/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t5p0:1207B098-D7E9-4A4D-82CD-FE6A3B8B844F'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming/Desktop/myProject'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1501639259.272
+    'REQUEST_TIME' => 1501639259
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'data'
+        2 => 'issuse-date'
+    ]
+    'argc' => 3
+]
+2017-08-02 10:01:16 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: data/issuse-date in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('issuse-date', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('issuse-date', Array)
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('data/issuse-dat...', Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('data/issuse-dat...', Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "data/issuse-date". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('data/issuse-dat...', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#3 {main}
+2017-08-02 10:01:16 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t5p0:1207B098-D7E9-4A4D-82CD-FE6A3B8B844F'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.k2jCfcmAU5/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.ZvJ9AGG0wh/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t5p0:1207B098-D7E9-4A4D-82CD-FE6A3B8B844F'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming/Desktop/myProject'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1501639276.4272
+    'REQUEST_TIME' => 1501639276
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'data/issuse-date'
+    ]
+    'argc' => 2
+]
+2017-08-02 10:02:28 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: data/issueDate in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('issueDate', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('issueDate', Array)
+#2 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('data/issueDate', Array)
+#3 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('data/issueDate', Array)
+#4 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "data/issueDate". in /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('data/issueDate', Array)
+#1 /Users/limingming/Desktop/myProject/haibao/vendor/yiisoft/yii2/base/Application.php(379): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/limingming/Desktop/myProject/haibao/scripts/yii(36): yii\base\Application->run()
+#3 {main}
+2017-08-02 10:02:28 [-][-][-][info][application] $_SERVER = [
+    'TERM_SESSION_ID' => 'w0t5p0:1207B098-D7E9-4A4D-82CD-FE6A3B8B844F'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.k2jCfcmAU5/Listeners'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.ZvJ9AGG0wh/Render'
+    'COLORFGBG' => '7;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'zh_CN.UTF-8'
+    'PWD' => '/Users/limingming/Desktop/myProject/haibao'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.0.4'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/limingming'
+    'TMPDIR' => '/var/folders/g3/grdb49dj0cl8jmcn5ymhmz_40000gn/T/'
+    'USER' => 'limingming'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'limingming'
+    'ITERM_SESSION_ID' => 'w0t5p0:1207B098-D7E9-4A4D-82CD-FE6A3B8B844F'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/limingming/Desktop/myProject'
+    'ZSH' => '/Users/limingming/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'scripts/yii'
+    'SCRIPT_NAME' => 'scripts/yii'
+    'SCRIPT_FILENAME' => 'scripts/yii'
+    'PATH_TRANSLATED' => 'scripts/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1501639348.3766
+    'REQUEST_TIME' => 1501639348
+    'argv' => [
+        0 => 'scripts/yii'
+        1 => 'data/issueDate'
+    ]
+    'argc' => 2
+]
